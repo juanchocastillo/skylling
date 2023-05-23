@@ -9,11 +9,15 @@
     
 
     <!-- CSS -->
-   
+   <link href="css/new/frontend" rel="stylesheet">
+
+
 
    
     
 
-    {block name="head"}{/block}
+   
 
 </head>
+
+
