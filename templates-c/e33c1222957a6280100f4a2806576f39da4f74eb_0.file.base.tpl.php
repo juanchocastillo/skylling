@@ -1,3 +1,29 @@
+<?php
+/* Smarty version 4.3.1, created on 2023-05-23 06:33:59
+  from 'C:\xampp\htdocs\skylling\templates\base.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.1',
+  'unifunc' => 'content_646c4237010e78_34207528',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'e33c1222957a6280100f4a2806576f39da4f74eb' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\skylling\\templates\\base.tpl',
+      1 => 1684816376,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_646c4237010e78_34207528 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, false);
+?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -14,7 +40,10 @@
     <link href="css/iconmonstr-iconic-font.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800%7cPoppins:100,200,300,400,500,600,700,800" rel="stylesheet">
 
-    {block name="head"}{/block}
+    <?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_970976915646c423700b411_39257427', "head");
+?>
+
 
 </head>
 <body>
@@ -60,7 +89,10 @@
     </div>
 </nav>
 
-{block name="content"}{/block}
+<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1161781112646c423700c7d4_46347420', "content");
+?>
+
 
 
 <!-- ==================================================
@@ -125,7 +157,8 @@
 ================================================== -->
 <section class="bg-gray sm-padding text-center">
     <div class="container">
-        <h6 class="mb-0px">© {date(Y)} <a href="">Skylling</a> , Reservados todos los derechos.</h6>
+        <h6 class="mb-0px">© <?php echo date('Y');?>
+ <a href="">Skylling</a> , Reservados todos los derechos.</h6>
     </div>
 </section>
 <!-- ==================================================
@@ -145,20 +178,37 @@
 
 
 
-{*<script src="js/jquery-3.3.1.min.js"></script>*}
-{*<script src="js/jquery-migrate-3.0.0.min.js"></script>*}
-{*<script src="js/popper.min.js"></script>*}
-{*<script src="js/bootstrap.min.js"></script>*}
-{*<script src="js/jquery.counterup.min.js"></script>*}
-{*<script src="js/jquery.waypoints.min.js"></script>*}
-{*<script src="js/lity.min.js"></script>*}
-{*<script src="js/scrollIt.min.js"></script>*}
-{*<script src="js/validator.js"></script>*}
-{*<script src="js/owl.carousel.min.js"></script>*}
-{*<script src="js/main.js"></script>*}
-{*<script src="js/wow.min.js"></script>*}
 
-<script src="js/frontend.js"></script>
+<?php echo '<script'; ?>
+ src="js/frontend.js"><?php echo '</script'; ?>
+>
 
 </body>
-</html>
+</html><?php }
+/* {block "head"} */
+class Block_970976915646c423700b411_39257427 extends Smarty_Internal_Block
+{
+public $subBlocks = array (
+  'head' => 
+  array (
+    0 => 'Block_970976915646c423700b411_39257427',
+  ),
+);
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+}
+}
+/* {/block "head"} */
+/* {block "content"} */
+class Block_1161781112646c423700c7d4_46347420 extends Smarty_Internal_Block
+{
+public $subBlocks = array (
+  'content' => 
+  array (
+    0 => 'Block_1161781112646c423700c7d4_46347420',
+  ),
+);
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+}
+}
+/* {/block "content"} */
+}

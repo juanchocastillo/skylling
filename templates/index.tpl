@@ -1,4 +1,4 @@
-{extends file="frontend/base.tpl"}
+{extends file="base.tpl"}
 
 {block name="content"}
 
@@ -9,10 +9,10 @@
                     <h2 class="mb-20px">
                         ¡Vender, comercializar y administrar su negocio!</h2>
                     <p>Maneje la información sobre servicios comerciales, productos, finanzas de la empresa, proveedores, pedidos de clientes y más con Skylling. Mejore la eficiencia, el conocimiento y la toma de decisiones en todo su negocio, administrando, vendiendo y facturando sin importar donde estés donde estés. No pierdas tiempo, Skylling está contigo.</p>
-                    <a class="main-btn btn-3 mt-30px" href="{$_url}register">Pruébalo gratis</a>
+                    <a class="main-btn btn-3 mt-30px" href="">Pruébalo gratis</a>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img alt="img" class="banner-image" src="{$app_url}storage/pages/dashboard.jpg">
+                    <img alt="img" class="banner-image" src="pages/dashboard.jpg">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="mt-25px mb-25px">
-                        <img alt="img" src="{$app_url}storage/pages/business-present.png">
+                        <img alt="img" src="business-present.png">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -157,7 +157,7 @@
                 <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 z-index-2">
                     <h3 class="mb-10px">Comience gratis hoy.</h3>
                     <p class="mb-30px">Pruébalo gratis durante 14 días. No se requiere tarjeta de crédito. Cancele en cualquier momento.</p>
-                    <form class="p-relative" method="post" action="{$_url}register">
+                    <form class="p-relative" method="post" action="">
                         <input type="email" name="email" required class="radius-50px mb-10px pl-15px pt-7px pb-7px no-border w-100" placeholder="Introduce tu correo electrónico">
                         <button class="bg-orange color-fff radius-50px pr-15px pl-15px pt-7px pb-7px no-border p-absolute">Empezar</button>
                     </form>
