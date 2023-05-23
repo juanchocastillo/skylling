@@ -14,6 +14,9 @@
     <link href="css/iconmonstr-iconic-font.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800%7cPoppins:100,200,300,400,500,600,700,800" rel="stylesheet">
 
+   
+    
+
     {block name="head"}{/block}
 
 </head>
@@ -33,7 +36,7 @@
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Inicio</a>
+                    <a class="nav-link" href=""></a>
                 </li>
 
                 <li class="nav-item">

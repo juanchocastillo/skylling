@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-23 06:33:59
+/* Smarty version 4.3.1, created on 2023-05-23 09:53:18
   from 'C:\xampp\htdocs\skylling\templates\base.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_646c4237010e78_34207528',
+  'unifunc' => 'content_646c70eeb16b45_46575456',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e33c1222957a6280100f4a2806576f39da4f74eb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\base.tpl',
-      1 => 1684816376,
+      1 => 1684828396,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_646c4237010e78_34207528 (Smarty_Internal_Template $_smarty_tpl) {
+function content_646c70eeb16b45_46575456 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -40,8 +40,12 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <link href="css/iconmonstr-iconic-font.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800%7cPoppins:100,200,300,400,500,600,700,800" rel="stylesheet">
 
+    <!-- fonts -->
+    <link href="css/new/fonts.css" rel="stylesheet"></link>
+    
+
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_970976915646c423700b411_39257427', "head");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_322012535646c70eeb11224_66722369', "head");
 ?>
 
 
@@ -62,7 +66,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_970976915646c42370
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Inicio</a>
+                    <a class="nav-link" href=""></a>
                 </li>
 
                 <li class="nav-item">
@@ -90,7 +94,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_970976915646c42370
 </nav>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1161781112646c423700c7d4_46347420', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_540096107646c70eeb136f1_81483252', "content");
 ?>
 
 
@@ -186,12 +190,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1161781112646c4237
 </body>
 </html><?php }
 /* {block "head"} */
-class Block_970976915646c423700b411_39257427 extends Smarty_Internal_Block
+class Block_322012535646c70eeb11224_66722369 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'head' => 
   array (
-    0 => 'Block_970976915646c423700b411_39257427',
+    0 => 'Block_322012535646c70eeb11224_66722369',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -199,12 +203,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "head"} */
 /* {block "content"} */
-class Block_1161781112646c423700c7d4_46347420 extends Smarty_Internal_Block
+class Block_540096107646c70eeb136f1_81483252 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_1161781112646c423700c7d4_46347420',
+    0 => 'Block_540096107646c70eeb136f1_81483252',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

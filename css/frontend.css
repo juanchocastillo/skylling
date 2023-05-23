@@ -351,6 +351,10 @@ p.p-big{
 
 .translateY-5px{transform: translateY(5px);}
 
+
+.test{
+    font-family: nexa-light !important;
+}
 /***** buttons *****/
 .main-btn{
     display: inline-block;
@@ -782,6 +786,7 @@ p.p-big{
     color: #333;
     font-weight: 400;
     padding: 0;
+    
 }
 
 .mega-item{
