@@ -25,6 +25,12 @@
 ==================================================
                       nav
 ==================================================
+*
+
+/*
+==================================================
+                      nav-end
+==================================================
 */
 
 .nav-bar{
@@ -120,23 +126,32 @@
    
    .navbar-button-login:hover .circle {
     width: 100%;
-   }
-   
-   .navbar-button-login:hover .circle .icon.arrow {
-    background: #fff;
-    transform: translate(1rem, 0);
-   }
-   
-   .navbar-button-login:hover .button-text {
-    color: #fff;
-   }
+    height: 250px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+main .section-container .section-cards .cards-container {
+
+    width: 70%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main .section-container .section-cards .cards-container .card {
+
+    width: 20px;
+    height: 30px;
+}
 
 
 
 
 /*
 ==================================================
-                      nav-end
+                      section 1-end
 ==================================================
 */
