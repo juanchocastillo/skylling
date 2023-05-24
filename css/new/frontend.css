@@ -142,43 +142,344 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 ==================================================
                       section 1
 ==================================================
 */
 
-body main .section-container { 
+.section-detail { 
 
     width: 100%;
-    height: 1000px;
+    height: 1100px;
     background-color: #091439;
+    min-width: 1024px;
+    background-image: url(/assets/fondo\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-main .section-container .section-cards {
+.section-detail .section-cards {
 
     width: 100%;
-    height: 250px;
-    background-color: aliceblue;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.section-detail .section-cards .cards-container {
+
+    width: 70%;
+    min-width: 1024px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    justify-items: center;
+    
+}
+
+.section-detail .section-cards .cards-container .container {
+
+    width: 200px;
+    height: 240px;
+    padding-right: 5px;
+    background-image: url(/assets/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-detail .section-cards .cards-container p {
+
+    font-family: nexa-light;
+    color: #e6e7eb;
+    margin: 0 50px 0 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+.section-detail .section-cards .cards-container .container .box-hover {
+
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 7px;
 }
 
-main .section-container .section-cards .cards-container {
+.section-detail .section-cards .cards-container .container .box-hover .contain-finanzas {
 
-    width: 70%;
+    width: 100px;
+    height: 140px;
+}
+
+.section-detail .section-cards .cards-container .container .box-hover .contain-facturacion {
+
+    width: 125px;
+    height: 140px;
+    
+}
+
+.section-detail .section-cards .cards-container .container .box-hover .contain-crm {
+
+    width: 125px;
+    height: 140px;
+}
+
+.section-detail .section-cards .cards-container .container .box-hover img {
+
+    width: 100%;
     height: 100%;
+}
+
+.section-detail .section-pasos {
+
+    width: 100%;
+    height: 690px;
+    margin-top: 190px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
 }
 
-main .section-container .section-cards .cards-container .card {
-
-    width: 20px;
-    height: 30px;
+.section-detail .section-pasos .division-img {
+    
+    width: 100%;
+    height: 100%;
 }
 
+
+.section-detail .section-pasos .division-img figure img {
+    width: 350px;
+    height: 700px;
+    margin-left: 70px;
+}
+
+.section-detail .section-pasos .division-info {
+
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.section-detail .section-pasos .division-info .container-info {
+
+    width: 85%;
+    height: 70%;
+}
+
+.section-detail .section-pasos .division-info .container-info .text-info h3 {
+
+    font-family: nexa-light;
+    font-size: ;
+
+}
 
 
 
