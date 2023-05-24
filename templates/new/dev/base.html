@@ -12,18 +12,21 @@
    <link href="/css/new/frontend.css" rel="stylesheet">
 
 
+    <!-- Fonts-from-Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet">
 
-   
-    
-
-   
 
 </head>
 
 <nav class="nav-bar">
-    <span class="navbar-logo">
+    <div class="nav-bar-logo-container">
+        <span class="navbar-logo"></span>
+    </div>
 
-    </span>
     <ul class="navbar-list">
         <li class="navbar-list__li">Inicio</li>
         <li class="navbar-list__li">Características</li>
@@ -32,12 +35,15 @@
 
     </ul>
 
-    <button class="navbar-button-login">
-        <span class="circle" aria-hidden="true">
-        <span class="icon arrow"></span>
-        </span>
-        <span class="button-text">Iniciar Sesión</span>
-    </button>
+    <div class="navbar-button-login-container">
+
+
+        <button class="navbar-button-login">
+            <span class="button-content">Iniciar sesión</span>
+        </button>
+
+        <!--  -->
+    </div>    
 
 </nav>
 
