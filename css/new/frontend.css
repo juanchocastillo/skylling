@@ -150,6 +150,7 @@ html{
 
 .principal-section{
     min-width: 1024px;
+    max-width: 1440px;
     width: 100%;
     height: 100vh;
     font-family: nexa-light;
@@ -190,12 +191,13 @@ html{
 
 
 .principal-section .img-container{
-   
-    width: 90%;
-    height: 100%;
+    position: relative;
+    width: 114%;
+    height: 114%;
+    top: -36px;
     grid-column-start: 1;
     grid-column-end: 3;
-    margin-left: -86px;
+    margin-left: -120px;
    
     
 }
@@ -207,16 +209,25 @@ html{
 
 
 .content-container{
-    width: 100%;
+    display: flex;
+    position: relative;
+    width: 115%;
+    /*padding: 0 0 70px;*/
+    top: -8px;
+    left: -60px;
     grid-column-start: 3;
     grid-column-end: 4;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    /*background-color: #2158a8;*/
     
 }
 
 .principal-section .content-container .text-container{
-    
-    width: 100%;
-    height: 300px;
+    width: auto;
+    height: auto;
+    margin-bottom: 12px;
     font-size: 2.8rem;
 }
 
@@ -225,6 +236,13 @@ html{
 
 }*/
 
+
+.principal-section-button-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: left; 
+}
 
 .principal-section-button {
     position: relative;
@@ -236,8 +254,10 @@ html{
     text-decoration: none;
     background: transparent;
     padding: 0;
-    font-size: inherit;
-    font-family: nexa-light;
+    /*font-size: inherit;*/
+    font-size: 1.8rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
    }
    
    button.principal-section-button {
@@ -250,6 +270,9 @@ html{
     position: relative;
     display: block;
     margin: 0;
+    /*
+    width: 4.8rem;
+    height: 4.8rem;*/
     width: 4.8rem;
     height: 4.8rem;
     background: #091539;
@@ -292,17 +315,18 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.2rem 0;
-    margin: 0 0 0 2.96rem;
+    padding: 1.01rem 0;
+    /*margin: 0 0 0 2.96rem;*/
+    margin: 0 0 0 5.4rem;
     color: #282936;
-    font-weight: 700;
+    /*font-weight: 700;*/
     line-height: 1.6;
     text-align: center;
     /*text-transform: uppercase;*/
    }
    
    .principal-section-button:hover .circle {
-    width: 100%;
+    width: 112%;
    }
 
    
@@ -324,7 +348,7 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 1;
+    z-index: -1;
 }
 
 
