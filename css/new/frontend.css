@@ -360,12 +360,22 @@ html{
 ==================================================
 */
 
+
+/*
+==================================================
+                section_1
+==================================================
+*/
+
 .section-detail { 
 
     width: 100%;
-    height: 1100px;
+    height: 1300px;
+    position: relative;
+    z-index: -3;
     background-color: #091439;
-    min-width: 1024px;
+    min-width: 1280px; /*verificar*/
+    max-width: 1440px;
     background-image: url(/assets/fondo\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
@@ -376,7 +386,7 @@ html{
 .section-detail .section-cards {
 
     width: 100%;
-    height: 220px;
+    height: auto;
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -385,7 +395,7 @@ html{
 .section-detail .section-cards .cards-container {
 
     width: 70%;
-    min-width: 1024px;
+    /* min-width: 1024px; */
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -396,8 +406,8 @@ html{
 
 .section-detail .section-cards .cards-container .container {
 
-    width: 200px;
-    height: 240px;
+    width: 240px;
+    height: 280px;
     padding-right: 5px;
     background-image: url(/assets/fondo.png);
     background-repeat: no-repeat;
@@ -411,6 +421,7 @@ html{
     margin: 0 50px 0 50px;
     text-align: center;
     font-weight: 700;
+    font-size: 2rem;
 }
 
 
@@ -427,21 +438,24 @@ html{
 
 .section-detail .section-cards .cards-container .container .box-hover .contain-finanzas {
 
-    width: 100px;
-    height: 140px;
+    width: 120px;
+    height: 160px;
+    margin: 0 8px 5px 0;
 }
 
 .section-detail .section-cards .cards-container .container .box-hover .contain-facturacion {
 
-    width: 125px;
-    height: 140px;
+    width: 170px;
+    height: 170px;
+    margin: 0px 10px 20px 0;
     
 }
 
 .section-detail .section-cards .cards-container .container .box-hover .contain-crm {
 
-    width: 125px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
+    margin: 0 10px 10px 0;
 }
 
 .section-detail .section-cards .cards-container .container .box-hover img {
@@ -454,9 +468,8 @@ html{
 
     width: 100%;
     height: 690px;
-    margin-top: 190px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: minmax(361px, 1fr) 2fr;
 }
 
 .section-detail .section-pasos .division-img {
@@ -467,30 +480,149 @@ html{
 
 
 .section-detail .section-pasos .division-img figure img {
-    width: 350px;
-    height: 700px;
-    margin-left: 70px;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
 }
 
 .section-detail .section-pasos .division-info {
 
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin-top: 100px;
+    padding-left: 100px;
 }
 
 .section-detail .section-pasos .division-info .container-info {
 
     width: 85%;
-    height: 70%;
+    height: auto;
+}
+
+.section-detail .section-pasos .division-info .container-info .text-info {
+
+    position: relative;
+}
+
+.section-detail .section-pasos .division-info .container-info .text-info .text-info__element {
+
+    width: 310px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: #0f7b7b;
+    z-index: -2;
+    border-radius: 20px;
 }
 
 .section-detail .section-pasos .division-info .container-info .text-info h3 {
 
     font-family: nexa-light;
-    
+    font-size: 3.9rem;
+    color: #ffffff;
+    font-weight: 200;
 
 }
+
+
+.section-detail .section-pasos .division-info .container-info .text-info .negrita {
+
+    font-weight: bold;
+}
+
+
+.section-pasos .division-info .container-info .text-info p {
+
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: nexa-light;
+    margin-top: 10px;
+}
+
+
+.section-pasos .division-info .container-info .cards-info {
+
+    margin-top: 50px;
+    position: relative;
+    left: -60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo {
+
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-image: url(/assets/fondo\ \(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso1 {
+
+    width: 150px;
+    height: 120px;
+    margin: 30px 0 0 135px;
+    
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso2 {
+
+    width: 130px;
+    height: 120px;
+    margin: 35px 0 0 145px;
+    
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso3 {
+
+    width: 180px;
+    height: 120px;
+    margin: 30px 0 0 120px;
+    
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso4 {
+
+    width: 180px;
+    height: 120px;
+    margin: 35px 0 0 120px;
+    
+}
+
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info__img {
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info__span {
+
+    
+    width: 90px;
+    height: 90px;
+    display: block;
+    left: 30px;
+    top: -20px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.section-pasos .division-info .container-info .cards-info .fondo .cards-info__span img {
+
+    
+    width: 100%;
+    height: 100%;
+
+}
+
 
 
 
