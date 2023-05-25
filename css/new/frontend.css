@@ -361,6 +361,9 @@ html{
 */
 
 
+
+
+
 /*
 ==================================================
                 section_1
@@ -623,9 +626,6 @@ html{
 
 }
 
-
-
-
 /*
 ==================================================
                       section 1-end
@@ -820,7 +820,6 @@ html{
     top: 44px;
     right: -50px;
     
-    
 }
 
 .questions-section .img-container span{
@@ -834,15 +833,62 @@ html{
 }
 
 .questions-section .content-container{
-    width: 600px;
-    height: 360px
-}
 
-.questions-section .content-question{
+    display: flex;
     width: 100%;
     height: auto;
+    padding: 20px 0 0;
+    position: static;
+    overflow-y: hidden;
+   /* width: 600px;
+    height: 360px*/
+    justify-content: center;
+  
+    
+    
 }
 
+.questions-section .content-container .question{
+    
+    
+    width:  760px;
+    height: 60px;
+    margin: 20px 0;
+    padding: 10px;
+    overflow-y: hidden;
+    text-align: center;
+    border-radius: 40px;
+    color: #091439;
+    background-color:  #f4f5f8;;
+    box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    
+    
+    /*height: auto;*/
+
+}
+
+
+.questions-section .content-container .question-title{
+    margin: 8px 0 20px;
+    /*margin-bottom: 16px;*/
+    font-family: nexa-light;
+    font-size: 2rem;
+   
+}
+
+
+.questions-section .content-container .question-title span{
+    font-family: nexa-bold;
+    font-size: 2rem;
+   
+}
+
+.questions-section .content-container .question-text{
+    font-family: Poppins, sans-serif;
+    font-size: 1.4rem;
+}
 /*
 ==================================================
             question-section-end
