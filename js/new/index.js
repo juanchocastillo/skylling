@@ -1,83 +1,78 @@
 
-const handlerAnimation=(elem, elemToAccion, animation, animationNext, accion)=>{
-    
+
+let handlerAnimation=(elem, animation)=>{
+        
     if(elem.getAttribute("clicked")=="false"){
         
-        elem.style.animationName=animation;
-        elemToAccion.style.animationName=accion["init"];
+        elem.animate(animation["init"], animation["config"]);
         elem.setAttribute("clicked", "true");
     }
 
     else{
 
-        elem.style.animationName=animationNext;
-        elemToAccion.style.animationName=accion["close"];
+        elem.animate(animation["close"], animation["config"]);
         elem.setAttribute("clicked", "false");
     }
 }
 
 
-const applyAnimation=(classElement, elementToAccion, classAnimation, classAnimationNext, handlerAnimation, acciones)=>{
 
-   const elements=Array.from(document.querySelectorAll(classElement));
-   const elementsToAccion=Array.from(document.querySelectorAll(elementToAccion));
-   console.log(elementsToAccion)
-   
+let test=(classElement, classNodes, animations)=>{
 
-   elements.map((elem, index)=>{
-    elem.addEventListener("click", ()=>{
-        handlerAnimation(elem, elementsToAccion[index], classAnimation, classAnimationNext, acciones)
-    })
-   })
-}
+    
+   /* let nodesToAnimate=[]*/
+    
+    let nodeListToAdd=[];
+    classNodes.map((elem)=>{nodeListToAdd.push(document.querySelectorAll(elem))})
+    
 
-
-applyAnimation(".question-title__icon-arrow", 
-    ".question",
-    "question-arrow-dow", 
-    "question-arrow-up", 
-    handlerAnimation, 
-    {init: "question-xpand", close: "question-reduce"}
-)
-//////////////////////////////////////////////////////////////////
-
-
-
-
-const anima=(elem, animations)=>{
-
-    elem.animate(
-        animations.frames,
-        animations.config
-    )
-
-}
-
-
-
-
-
-/*
-classElement: clase de elementos para aplicar evento especificado/".stringClass"
-event: evento a escuchar/ string
-callback: funcion a ejecutar 
- */
-
-const addEventsToElements=(classElement, event, callback, read)=>{
-
-    const integrate=read
 
     const elements=Array.from(document.querySelectorAll(classElement));
-    elements.map((elem)=>{
-        elem.addEventListener(event, callback)
+
+
+    elements.map((elem, index)=>{
+
+       elem.addEventListener("click", ()=>{
+            
+                handlerAnimation(elem,animations.buttonAnimation)
+                
+
+            for(let i=0; i<nodeListToAdd.length; i++){
+                   
+                handlerAnimation(nodeListToAdd[i][index], animations.animationAccion)
+              
+            }
+    
+    
+        })
+
+
+
     })
-   
-
-}
-
+    
+}   
 
 
 
-const getNodeList=(classElement)=>{
-    return Array(document.querySelectorAll(classElement));
-}
+
+
+
+test(".question-title__icon-arrow", [".question"],
+    {
+        buttonAnimation:{
+            init:[{transform:"rotate(-180deg)"},{transform:"rotate(-90deg)"} ],
+            close:[{transform:"rotate(-90deg)"},{transform:"rotate(-180deg)"}],
+            config:{duration:250, iteration:1, fill:"forwards"},
+        },
+
+        animationAccion:{
+            init:[{height:"60px"},{height:"180px"}], 
+            close:[{height:"180px"},{height:"60px"}],
+            config:{duration:250, iteration:1, fill:"forwards"},
+        }
+    }
+
+ )
+
+
+
