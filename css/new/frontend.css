@@ -74,7 +74,7 @@ html{
     display: inline-block;
     width: 136px;
     height: 98px;
-    background-image: url("/assets/logo-skylling.png");
+    background-image: url("http://localhost/skylling/assets/logo-skylling.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -344,7 +344,7 @@ html{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("/assets/background-principal-section.png");
+    background-image: url("http://localhost/skylling/assets/background-principal-section.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -379,7 +379,7 @@ html{
     background-color: #091439;
     min-width: 1280px; /*verificar*/
     max-width: 1440px;
-    background-image: url(/assets/fondo\ \(2\).png);
+    background-image: url(http://localhost/skylling/assets/fondo\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,7 +412,7 @@ html{
     width: 240px;
     height: 280px;
     padding-right: 5px;
-    background-image: url(/assets/fondo.png);
+    background-image: url(http://localhost/skylling/assets/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -559,7 +559,7 @@ html{
     width: 400px;
     height: 200px;
     position: relative;
-    background-image: url(/assets/fondo\ \(3\).png);
+    background-image: url(http://localhost/skylling/assets/fondo\ \(3\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -785,15 +785,15 @@ html{
 }
 
 .questions-section .background-cloud{
-    position: absolute;
+    /*position: absolute;
     width: 100%;
     height: 100px;
     min-width: 1024px;
     top: 0;
-    background-image: url("/assets/background-cloud.png");
+    background-image: url("http://localhost/skylling/assets/background-cloud.png");
     background-position:  bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     
 }   
 
@@ -847,7 +847,7 @@ html{
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-image: url("/assets/signo-pregunta.png");
+    background-image: url("http://localhost/skylling/assets/signo-pregunta.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -916,7 +916,7 @@ html{
     width: 30px;
     height: 30px;
     margin:  0 20px 0 0;
-    background-image: url("/assets/arrow-min.png");
+    background-image: url("http://localhost/skylling/assets/arrow-min.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
