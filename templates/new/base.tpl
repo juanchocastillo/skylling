@@ -22,7 +22,8 @@
 
 </head>
 
-<body>
+
+<header>
     <nav class="nav-bar">
         <div class="nav-bar-logo-container">
             <span class="navbar-logo"></span>
@@ -47,10 +48,15 @@
         </div>    
 
     </nav>
+</header>
+
+
+<body>
+    
 
     {block name="content"}{/block}
 
 
-
+<script src="static/js/index.js"></script>
 </body>
-
+</html>

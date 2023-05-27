@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-27 07:28:33
+/* Smarty version 4.3.1, created on 2023-05-27 09:19:48
   from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_647195016fef38_00301956',
+  'unifunc' => 'content_6471af149b9a68_47723454',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-      1 => 1685165245,
+      1 => 1685171986,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_647195016fef38_00301956 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6471af149b9a68_47723454 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,7 +28,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2070215680647195016fac37_74578381', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2144470876471af149af275_88748125', "content");
 ?>
 
 
@@ -37,12 +37,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_207021568064719501
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
 }
 /* {block "content"} */
-class Block_2070215680647195016fac37_74578381 extends Smarty_Internal_Block
+class Block_2144470876471af149af275_88748125 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_2070215680647195016fac37_74578381',
+    0 => 'Block_2144470876471af149af275_88748125',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -61,7 +61,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
         <div class="img-container">
             <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/assets/computer-system-screen.png">
+/skylling/static/assets/computer-system-screen.png">
         </div>
 
         <div  class="content-container">
@@ -99,19 +99,22 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                 <div class="cards-container">
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-finanzas"><img src="/assets/Finanzas.png" alt="Finanzas"></div>
+                            <div class="contain-finanzas"><img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/Finanzas.png" alt="Finanzas"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-facturacion"><img src="/assets/Facturacion.png" alt="Facturacion"></div>
+                            <div class="contain-facturacion"><img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/Facturacion.png" alt="Facturacion"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-crm"><img src="/assets/crm.png" alt="crm"></div>
+                            <div class="contain-crm"><img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/crm.png" alt="crm"></div>
                         </div>
                     </div>
                     <p>Vea su imagen financiera
@@ -126,7 +129,8 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
             <div class="section-pasos">
                 <div class="division-img">
                     <figure>
-                        <img src="/assets/persona.png" alt="">
+                        <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/persona.png" alt="">
                     </figure>
                 </div>
                 <div class="division-info">
@@ -139,34 +143,42 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                         <div class="cards-info">
                             <div class="fondo">
                                 <div class="cards-info-paso1">
-                                    <img class="cards-info__img" src="/assets/paso1.png" alt="">
+                                    <img class="cards-info__img" src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/paso1.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img class="bola1" src="/assets/punto.png" alt="">
+                                    <img class="bola1" src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso2">
-                                    <img class="cards-info__img" src="/assets/paso2.png" alt="">
+                                    <img class="cards-info__img" src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/paso2.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="/assets/punto.png" alt="">
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso3">
-                                    <img class="cards-info__img" src="/assets/paso3.png" alt="">
+                                    <img class="cards-info__img" src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/paso3.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="/assets/punto.png" alt="">
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso4">
-                                    <img class="cards-info__img" src="/assets/paso4.png" alt="">
+                                    <img class="cards-info__img" src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/paso4.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="/assets/punto.png" alt="">
+                                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                         </div>

@@ -14,7 +14,7 @@
         </div>
 
         <div class="img-container">
-            <img src="{$APP_URL}/skylling/assets/computer-system-screen.png">
+            <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
         </div>
 
         <div  class="content-container">
@@ -52,19 +52,19 @@
                 <div class="cards-container">
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-finanzas"><img src="/assets/Finanzas.png" alt="Finanzas"></div>
+                            <div class="contain-finanzas"><img src="{$APP_URL}/skylling/static/assets/Finanzas.png" alt="Finanzas"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-facturacion"><img src="/assets/Facturacion.png" alt="Facturacion"></div>
+                            <div class="contain-facturacion"><img src="{$APP_URL}/skylling/static/assets/Facturacion.png" alt="Facturacion"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-crm"><img src="/assets/crm.png" alt="crm"></div>
+                            <div class="contain-crm"><img src="{$APP_URL}/skylling/static/assets/crm.png" alt="crm"></div>
                         </div>
                     </div>
                     <p>Vea su imagen financiera
@@ -79,7 +79,7 @@
             <div class="section-pasos">
                 <div class="division-img">
                     <figure>
-                        <img src="/assets/persona.png" alt="">
+                        <img src="{$APP_URL}/skylling/static/assets/persona.png" alt="">
                     </figure>
                 </div>
                 <div class="division-info">
@@ -92,34 +92,34 @@
                         <div class="cards-info">
                             <div class="fondo">
                                 <div class="cards-info-paso1">
-                                    <img class="cards-info__img" src="/assets/paso1.png" alt="">
+                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso1.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img class="bola1" src="/assets/punto.png" alt="">
+                                    <img class="bola1" src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso2">
-                                    <img class="cards-info__img" src="/assets/paso2.png" alt="">
+                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso2.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="/assets/punto.png" alt="">
+                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso3">
-                                    <img class="cards-info__img" src="/assets/paso3.png" alt="">
+                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso3.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="/assets/punto.png" alt="">
+                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso4">
-                                    <img class="cards-info__img" src="/assets/paso4.png" alt="">
+                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso4.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="/assets/punto.png" alt="">
+                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                         </div>
