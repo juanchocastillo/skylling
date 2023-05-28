@@ -3,19 +3,23 @@
 
 {block name="content"}
 
-<section class="principal-section">
-    <div class="background-container"></div>
-    <div class="principal-section-container">
+<main class="main">
 
+<section class="principal-section">
+    
+    <div class="principal-section-container">
+   
         <div class="title-container">
             <p>¡VENDER, COMERCIALIZAR <br>
              Y<strong><span class="title-container__span">ADMINISTRAR</span></strong> <br>
              SU NEGOCIO!</p>
         </div>
 
-        <div class="img-container">
-            <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
-        </div>
+        <div class="figure">
+            <div class="img-container">
+                <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
+            </div>
+        </div>    
 
         <div  class="content-container">
             <div class="text-container">
@@ -91,32 +95,39 @@
                         </div>
                         <div class="cards-info">
                             <div class="fondo">
-                                <div class="cards-info-paso1">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso1.png" alt="">
+                                <div class="cards-info-paso1 cards-info">
+                                    <p class="cards-info__title">PASO 1</p>
+                                    <p class="cards-info__caption">Fácil de usar Regístrate y comienza</p>
                                 </div>
                                 <span class="cards-info__span">
                                     <img class="bola1" src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
+
                             <div class="fondo">
-                                <div class="cards-info-paso2">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso2.png" alt="">
+                                <div class="cards-info-paso2 cards-info">
+                                    <p class="cards-info__title">PASO 2 Funciones potentes</p>
+                                    <p class="cards-info__caption">Crece</p>
+                                  
                                 </div>
                                 <span class="cards-info__span">
                                     <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
-                                <div class="cards-info-paso3">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso3.png" alt="">
+                                <div class="cards-info-paso3 cards-info">
+                                    <p class="cards-info__title">PASO 3 Tus datos viven en la nube</p>
+                                    <p class="cards-info__caption">Administra</p>
+                                  
                                 </div>
                                 <span class="cards-info__span">
                                     <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
-                                <div class="cards-info-paso4">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso4.png" alt="">
+                                <div class="cards-info-paso4 cards-info">
+                                     <p class="cards-info__title">PASO 4 Usted es nuestra prioridad</p>
+                                    <p class="cards-info__caption">Contáctanos</p>
                                 </div>
                                 <span class="cards-info__span">
                                     <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
@@ -211,6 +222,8 @@
         </div>
     </div>
 </section>
+
+</main>
 
 {/block}
 

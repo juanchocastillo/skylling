@@ -26,18 +26,48 @@ html{
 
 /*
 ==================================================
+                      Main
+==================================================
+*/
+
+main{
+   
+    width: 100%;
+    min-width: 1024px;
+    max-width: 1440px;
+    margin: 0 auto;
+    /*background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+
+}
+
+
+
+
+
+
+/*
+==================================================
                       nav
 ==================================================
 */
 .nav-bar{
     display: flex;
-    /*position: absolute;*/
+    position: absolute;
+    max-width: 1440px;
     min-width: 1024px;
     width: 100%;
     height: 98px;
     padding: 0 20px;
+    margin: 0 auto;
+    transform: translate(-50%);
+    left: 50%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
+
     
 }
 
@@ -74,7 +104,7 @@ html{
     display: inline-block;
     width: 136px;
     height: 98px;
-    background-image: url("http://localhost/skylling/assets/logo-skylling.png");
+    background-image: url("http://localhost/skylling/static/assets/logo-skylling.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -149,12 +179,18 @@ html{
 
 
 .principal-section{
+    
+    width: 100%;
     min-width: 1024px;
     max-width: 1440px;
-    width: 100%;
-    height: 100vh;
+    height: auto;
+    padding: 100px 0 0;
     font-family: nexa-light;
     font-size: 1.6rem;
+    background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .principal-section-container{
@@ -189,14 +225,19 @@ html{
 }
 
 
+.principal-section  .figure{
+    position: relative;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
 .principal-section .img-container{
-    position: relative;
+    position: absolute;
     width: 114%;
     height: 114%;
     top: -36px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+   
     margin-left: -120px;
    
     
@@ -340,7 +381,7 @@ html{
    }
 
 
-.background-container{
+/*.background-container{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -349,7 +390,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-}
+}*/
 
 
 
@@ -373,16 +414,17 @@ html{
 .section-detail { 
 
     width: 100%;
-    height: 1300px;
+    height: auto;
     position: relative;
     z-index: -3;
     background-color: #091439;
-    min-width: 1280px; /*verificar*/
+    min-width: 1024px; /*verificar*/
     max-width: 1440px;
-    background-image: url(http://localhost/skylling/assets/fondo\ \(2\).png);
+    background-image: url(http://localhost/skylling/static/assets/fondo\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0 0 70px 0;
     
 }
 
@@ -402,7 +444,7 @@ html{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: auto 1fr;
     justify-items: center;
     
 }
@@ -412,7 +454,7 @@ html{
     width: 240px;
     height: 280px;
     padding-right: 5px;
-    background-image: url(http://localhost/skylling/assets/fondo.png);
+    background-image: url(http://localhost/skylling/static/assets/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -421,7 +463,8 @@ html{
 
     font-family: nexa-light;
     color: #e6e7eb;
-    margin: 0 50px 0 50px;
+    /*margin: 0 50px 0 50px;*/
+    margin: 0 20px;
     text-align: center;
     font-weight: 700;
     font-size: 2rem;
@@ -498,7 +541,7 @@ html{
 
 .section-detail .section-pasos .division-info .container-info {
 
-    width: 85%;
+    width: auto;
     height: auto;
 }
 
@@ -513,7 +556,7 @@ html{
     height: 30px;
     position: absolute;
     top: 20px;
-    right: 0px;
+    right: 10%;
     background-color: #0f7b7b;
     z-index: -2;
     border-radius: 20px;
@@ -555,47 +598,52 @@ html{
 }
 
 .section-pasos .division-info .container-info .cards-info .fondo {
-
-    width: 400px;
+    display: flex;
+    width: 100%;
     height: 200px;
     position: relative;
-    background-image: url(http://localhost/skylling/assets/fondo\ \(3\).png);
+    background-image: url(http://localhost/skylling/static/assets/background-steps.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
+
+
 
 .section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso1 {
 
-    width: 150px;
-    height: 120px;
-    margin: 30px 0 0 135px;
+   
     
 }
 
 .section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso2 {
 
-    width: 130px;
-    height: 120px;
-    margin: 35px 0 0 145px;
     
 }
 
 .section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso3 {
 
-    width: 180px;
-    height: 120px;
-    margin: 30px 0 0 120px;
+    
     
 }
 
 .section-pasos .division-info .container-info .cards-info .fondo .cards-info-paso4 {
 
-    width: 180px;
-    height: 120px;
-    margin: 35px 0 0 120px;
+  
     
 }
+
+.section-pasos .cards-info__title{
+
+}
+
+.section-pasos .cards-info__caption{
+    color: rgb(175, 40, 89) ;
+    font-size: 2rem;
+
+}
+
+
 
 
 .section-pasos .division-info .container-info .cards-info .fondo .cards-info__img {
@@ -763,7 +811,7 @@ html{
   
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     min-width: 1024px;
     max-width: 1440px;
     justify-content: center;
@@ -778,6 +826,7 @@ html{
     display: flex;
     width: 100%;
     height: auto;
+    padding: 100px 0 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -790,7 +839,7 @@ html{
     height: 100px;
     min-width: 1024px;
     top: 0;
-    background-image: url("http://localhost/skylling/assets/background-cloud.png");
+    background-image: url("http://localhost/skylling/static/assets/background-cloud.png");
     background-position:  bottom;
     background-repeat: no-repeat;
     background-size: cover;*/
@@ -847,7 +896,7 @@ html{
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-image: url("http://localhost/skylling/assets/signo-pregunta.png");
+    background-image: url("http://localhost/skylling/static/assets/signo-pregunta.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -914,7 +963,7 @@ html{
     width: 30px;
     height: 30px;
     margin:  0 20px 0 0;
-    background-image: url("http://localhost/skylling/assets/arrow-min.png");
+    background-image: url("http://localhost/skylling/static/assets/arrow-min.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
