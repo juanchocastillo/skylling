@@ -93,47 +93,61 @@
                             <p>Entendemos las necesidades de <br> <strong class="negrita">tu empresa en 4 pasos</strong></p>
                             <div class="text-info__element"></div>
                         </div>
-                        <div class="cards-info">
-                            <div class="fondo">
-                                <div class="cards-info-paso1 cards-info">
-                                    <p class="cards-info__title">PASO 1</p>
-                                    <p class="cards-info__caption">Fácil de usar Regístrate y comienza</p>
-                                </div>
-                                <span class="cards-info__span">
-                                    <img class="bola1" src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
-                                </span>
+
+
+                    
+                        <div class="steps-info-container">
+
+                            <div class="steps-info__cell step-one">
+                                <span class="ball"></span>
+                                <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
+                                </div>        
                             </div>
 
-                            <div class="fondo">
-                                <div class="cards-info-paso2 cards-info">
-                                    <p class="cards-info__title">PASO 2 Funciones potentes</p>
-                                    <p class="cards-info__caption">Crece</p>
-                                  
+                            <div class="steps-info__cell step-two">
+                                <span class="ball"></span>
+                            <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
                                 </div>
-                                <span class="cards-info__span">
-                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
-                                </span>
                             </div>
-                            <div class="fondo">
-                                <div class="cards-info-paso3 cards-info">
-                                    <p class="cards-info__title">PASO 3 Tus datos viven en la nube</p>
-                                    <p class="cards-info__caption">Administra</p>
-                                  
+
+
+                            <div class="steps-info__cell step-three">
+                                <span class="ball"></span>
+                                <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
                                 </div>
-                                <span class="cards-info__span">
-                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
-                                </span>
                             </div>
-                            <div class="fondo">
-                                <div class="cards-info-paso4 cards-info">
-                                     <p class="cards-info__title">PASO 4 Usted es nuestra prioridad</p>
-                                    <p class="cards-info__caption">Contáctanos</p>
+
+
+                            <div class="steps-info__cell step-four">
+                                <span class="ball"></span>
+                                <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
                                 </div>
-                                <span class="cards-info__span">
-                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
-                                </span>
                             </div>
                         </div>
+
+
+
+
                     </div>
                 </div>
             </div>

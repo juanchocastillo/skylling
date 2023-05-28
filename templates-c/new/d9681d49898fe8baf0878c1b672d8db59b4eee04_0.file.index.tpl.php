@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-28 06:32:31
+/* Smarty version 4.3.1, created on 2023-05-28 21:43:46
   from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_6472d95f1b6523_53210887',
+  'unifunc' => 'content_6473aef2b673d1_93990256',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-      1 => 1685248336,
+      1 => 1685303002,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6472d95f1b6523_53210887 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6473aef2b673d1_93990256 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,7 +28,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10516816026472d95f167699_70593121', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11544799236473aef2a13d16_02992692', "content");
 ?>
 
 
@@ -37,12 +37,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10516816026472d95f
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
 }
 /* {block "content"} */
-class Block_10516816026472d95f167699_70593121 extends Smarty_Internal_Block
+class Block_11544799236473aef2a13d16_02992692 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_10516816026472d95f167699_70593121',
+    0 => 'Block_11544799236473aef2a13d16_02992692',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -144,51 +144,61 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                             <p>Entendemos las necesidades de <br> <strong class="negrita">tu empresa en 4 pasos</strong></p>
                             <div class="text-info__element"></div>
                         </div>
-                        <div class="cards-info">
-                            <div class="fondo">
-                                <div class="cards-info-paso1 cards-info">
-                                    <p class="cards-info__title">PASO 1</p>
-                                    <p class="cards-info__caption">Fácil de usar Regístrate y comienza</p>
-                                </div>
-                                <span class="cards-info__span">
-                                    <img class="bola1" src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/punto.png" alt="">
-                                </span>
+
+
+                    
+                        <div class="steps-info-container">
+
+                            <div class="steps-info__cell step-one">
+                                <span class="ball"></span>
+                                <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
+                                </div>        
                             </div>
 
-                            <div class="fondo">
-                                <div class="cards-info-paso2 cards-info">
-                                    <p class="cards-info__title">PASO 2 Funciones potentes</p>
-                                    <p class="cards-info__caption">Crece</p>
-                                  
+                            <div class="steps-info__cell step-two">
+                                <span class="ball"></span>
+                            <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
                                 </div>
-                                <span class="cards-info__span">
-                                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/punto.png" alt="">
-                                </span>
                             </div>
-                            <div class="fondo">
-                                <div class="cards-info-paso3 cards-info">
-                                    <p class="cards-info__title">PASO 3 Tus datos viven en la nube</p>
-                                    <p class="cards-info__caption">Administra</p>
-                                  
+
+
+                            <div class="steps-info__cell step-three">
+                                <span class="ball"></span>
+                                <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
                                 </div>
-                                <span class="cards-info__span">
-                                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/punto.png" alt="">
-                                </span>
                             </div>
-                            <div class="fondo">
-                                <div class="cards-info-paso4 cards-info">
-                                     <p class="cards-info__title">PASO 4 Usted es nuestra prioridad</p>
-                                    <p class="cards-info__caption">Contáctanos</p>
+
+
+                            <div class="steps-info__cell step-four">
+                                <span class="ball"></span>
+                                <div class="info-section">
+                                    <div class="texture"></div>
+                                    <div class="text-container">
+                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
+                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                    </div>
                                 </div>
-                                <span class="cards-info__span">
-                                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/punto.png" alt="">
-                                </span>
                             </div>
                         </div>
+
+
+
+
                     </div>
                 </div>
             </div>
