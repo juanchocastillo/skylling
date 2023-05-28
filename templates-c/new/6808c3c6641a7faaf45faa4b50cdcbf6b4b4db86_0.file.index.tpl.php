@@ -1,7 +1,53 @@
-{extends file="base.tpl"}
+<?php
+/* Smarty version 4.3.1, created on 2023-05-27 06:13:52
+  from 'C:\xampp\htdocs\skylling\templates\new\dev\index.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.1',
+  'unifunc' => 'content_647183809e2302_40802059',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '6808c3c6641a7faaf45faa4b50cdcbf6b4b4db86' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\dev\\index.tpl',
+      1 => 1685160398,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_647183809e2302_40802059 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, true);
+?>
 
 
-{block name="content"}
+
+<?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_162853005647183809e0fa0_03763512', "content");
+?>
+
+
+
+
+<?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
+}
+/* {block "content"} */
+class Block_162853005647183809e0fa0_03763512 extends Smarty_Internal_Block
+{
+public $subBlocks = array (
+  'content' => 
+  array (
+    0 => 'Block_162853005647183809e0fa0_03763512',
+  ),
+);
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+
 
 <section class="principal-section">
     <div class="background-container"></div>
@@ -14,7 +60,7 @@
         </div>
 
         <div class="img-container">
-            <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
+            <img src="/assets/computer-system-screen.png">
         </div>
 
         <div  class="content-container">
@@ -52,19 +98,19 @@
                 <div class="cards-container">
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-finanzas"><img src="{$APP_URL}/skylling/static/assets/Finanzas.png" alt="Finanzas"></div>
+                            <div class="contain-finanzas"><img src="/assets/Finanzas.png" alt="Finanzas"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-facturacion"><img src="{$APP_URL}/skylling/static/assets/Facturacion.png" alt="Facturacion"></div>
+                            <div class="contain-facturacion"><img src="/assets/Facturacion.png" alt="Facturacion"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-crm"><img src="{$APP_URL}/skylling/static/assets/crm.png" alt="crm"></div>
+                            <div class="contain-crm"><img src="/assets/crm.png" alt="crm"></div>
                         </div>
                     </div>
                     <p>Vea su imagen financiera
@@ -79,7 +125,7 @@
             <div class="section-pasos">
                 <div class="division-img">
                     <figure>
-                        <img src="{$APP_URL}/skylling/static/assets/persona.png" alt="">
+                        <img src="/assets/persona.png" alt="">
                     </figure>
                 </div>
                 <div class="division-info">
@@ -92,34 +138,34 @@
                         <div class="cards-info">
                             <div class="fondo">
                                 <div class="cards-info-paso1">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso1.png" alt="">
+                                    <img class="cards-info__img" src="/assets/paso1.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img class="bola1" src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
+                                    <img class="bola1" src="/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso2">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso2.png" alt="">
+                                    <img class="cards-info__img" src="/assets/paso2.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
+                                    <img src="/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso3">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso3.png" alt="">
+                                    <img class="cards-info__img" src="/assets/paso3.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
+                                    <img src="/assets/punto.png" alt="">
                                 </span>
                             </div>
                             <div class="fondo">
                                 <div class="cards-info-paso4">
-                                    <img class="cards-info__img" src="{$APP_URL}/skylling/static/assets/paso4.png" alt="">
+                                    <img class="cards-info__img" src="/assets/paso4.png" alt="">
                                 </div>
                                 <span class="cards-info__span">
-                                    <img src="{$APP_URL}/skylling/static/assets/punto.png" alt="">
+                                    <img src="/assets/punto.png" alt="">
                                 </span>
                             </div>
                         </div>
@@ -212,7 +258,8 @@
     </div>
 </section>
 
-{/block}
-
-
-
+<?php
+}
+}
+/* {/block "content"} */
+}
