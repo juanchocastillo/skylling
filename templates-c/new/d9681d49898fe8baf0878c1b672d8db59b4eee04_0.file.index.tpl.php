@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-27 21:31:33
+/* Smarty version 4.3.1, created on 2023-05-28 06:32:31
   from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_64725a95dc0779_22713790',
+  'unifunc' => 'content_6472d95f1b6523_53210887',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-      1 => 1685215837,
+      1 => 1685248336,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64725a95dc0779_22713790 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6472d95f1b6523_53210887 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,7 +28,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_28729848264725a95db8f56_64563303', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10516816026472d95f167699_70593121', "content");
 ?>
 
 
@@ -37,12 +37,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_28729848264725a95d
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
 }
 /* {block "content"} */
-class Block_28729848264725a95db8f56_64563303 extends Smarty_Internal_Block
+class Block_10516816026472d95f167699_70593121 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_28729848264725a95db8f56_64563303',
+    0 => 'Block_10516816026472d95f167699_70593121',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -277,6 +277,77 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
         </div>
     </div>
 </section>
+
+    <section class="footer-formulario">
+            <div class="footer-formulario__container">
+                <div class="formulario__text-container">
+                    <h3>¡COMIENCE GRATIS HOY!<div class="text-container__element"></div></h3>
+                    <p> <strong class="negrita">Pruébalo gratis durante 14 días.</strong>  No se requiere tarjeta de crédito.
+                        Cancele en cualquier momento.</p>
+                </div>
+                <div class="formulario__inputs-container">
+                    <input type="email" placeholder="Introduce tu correo electrónico" name="" id="">
+                    <button class="btn">
+                        <span class="btn-text-one">EMPEZAR</span>
+                        <span class="btn-text-two">¡GENIAL!</span>
+                    </button>
+                </div>
+            </div>
+    </section>
+
+
+        <section class="footer-info">
+            <div class="footer-info__logo-container">
+                <span class="navbar-logo"></span>
+            </div>
+            <div class="footer-info__text-container">
+                <div class="text-container__text1">
+                    <h3>¿Qué es Skylling?</h3>
+                    <p>Skylling es una suite de negocios con un
+                        conjunto de funciones que le permitirán
+                        centralizar su negocio y agilizar los procesos
+                        que este conlleva, brindándoles el soporte
+                        comercial dentro y más allá de los límites de
+                        su organización.</p>
+                </div>
+                <div class="text-container__text2">
+                    <h3>Company</h3>
+                        <a href="#">Sobre nosotros</a>
+                        <a href="#">Precios y Planes</a>
+                        <a href="#">Iniciar sesión</a>
+                        <a href="#">Contáctanos</a>
+                </div>
+                <div class="text-container__text3">
+                    <h3>ACERCA DE</h3>
+                    <p>Dirección <br>
+                        350 Rhode Island St Suite 240
+                        San Francisco, CA 94103, USA <br>
+                        +1 (650) 488-7772
+                        sales@skylling.com</p>
+                </div>
+            </div>
+            <div class="footer-info__button-container">
+                <div class="principal-section-button-container"> 
+                    <button class="principal-section-button">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">¡Empezar ahora!</span>
+                    </button>
+                </div>
+                <div class="footer-info__links-container">
+                    <span class="facebook"><a href="#"></a></span>
+                    <span class="twitter"><a href="#"></a></span>
+                    <span class="be"><a href="#"></a></span>
+                    <span class="linkedin"><a href="#"></a></span>
+                </div>
+            </div>
+            <div class="footer-info__texto-final">
+                <h3 class="texto-final__h3"> <strong class="texto-final__negrita">© 2023 Skylling, </strong>Reservados todos los derechos.</h3>
+            </div>
+        </section>
+    </footer>
+
 
 </main>
 
