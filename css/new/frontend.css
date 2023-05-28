@@ -1182,7 +1182,7 @@ html{
 ==================================================
 */
 
-footer {
+.footer {
 
     width: 100%;
     min-width: 1024px;
@@ -1194,7 +1194,7 @@ footer {
 
     width: 100%;
     height: 500px;
-    background-image: url(/assets/fondo-footer1.png);
+    background-image: url(/static/assets/fondo-footer1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1328,7 +1328,7 @@ footer .footer-info {
     width: 100%;
     height: 700px;
     background-color: #fafafc;
-    background-image: url(/assets/background-principal-section.png);
+    background-image: url(/static/assets/background-principal-section.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1492,23 +1492,23 @@ footer .footer-info {
 
 .footer-info__links-container .facebook {
 
-    background-image: url(/assets/facebook.png);
+    background-image: url(/static/assets/facebook.png);
     border-radius: 8px;
 }
 
 .footer-info__links-container .twitter {
 
-    background-image: url(/assets/twitter.png);
+    background-image: url(/static/assets/twitter.png);
 }
 
 .footer-info__links-container .be {
 
-    background-image: url(/assets/be.png);
+    background-image: url(/static/assets/be.png);
 } 
 
 .footer-info__links-container .linkedin {
 
-    background-image: url(/assets/linkedin.png);
+    background-image: url(/static/assets/linkedin.png);
 } 
 
 .footer-info__texto-final {
