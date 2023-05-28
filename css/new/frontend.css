@@ -459,6 +459,7 @@ main{
     background-size: cover;
 }
 
+
 .section-detail .section-cards .cards-container p {
 
     font-family: nexa-light;
@@ -471,7 +472,6 @@ main{
 }
 
 
-
 .section-detail .section-cards .cards-container .container .box-hover {
 
     width: 100%;
@@ -479,35 +479,62 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 7px;
 }
+
 
 .section-detail .section-cards .cards-container .container .box-hover .contain-finanzas {
 
-    width: 120px;
-    height: 160px;
-    margin: 0 8px 5px 0;
+    width: 170px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-detail .section-cards .cards-container .container .box-hover .hover:hover {
+
+    background: rgba(58, 58, 58, 0.288);
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 40px;
 }
 
 .section-detail .section-cards .cards-container .container .box-hover .contain-facturacion {
 
     width: 170px;
-    height: 170px;
-    margin: 0px 10px 20px 0;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .section-detail .section-cards .cards-container .container .box-hover .contain-crm {
 
-    width: 160px;
-    height: 160px;
-    margin: 0 10px 10px 0;
+    width: 170px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-detail .section-cards .cards-container .container .box-hover img {
+.section-detail .section-cards .cards-container .container .box-hover .contain-finanzas img {
 
-    width: 100%;
-    height: 100%;
+    width: 120px;
+    height: 160px;
+}
+
+.section-detail .section-cards .cards-container .container .box-hover .contain-facturacion img {
+
+    width: 160px;
+    height: 160px;
+}
+
+.section-detail .section-cards .cards-container .container .box-hover .contain-crm img {
+
+    width: 160px;
+    height: 160px;
+    margin-right: 7px;
 }
 
 .section-detail .section-pasos {
@@ -558,7 +585,7 @@ main{
     top: 20px;
     right: 10%;
     background-color: #0f7b7b;
-    z-index: -2;
+    z-index: 1;
     border-radius: 20px;
 }
 
@@ -566,13 +593,15 @@ main{
 
     font-family: nexa-light;
     font-size: 3.9rem;
+    position: relative;
     color: #ffffff;
+    z-index: 3;
     font-weight: 200;
 
 }
 
 
-.section-detail .section-pasos .division-info .container-info .text-info .negrita {
+.negrita {
 
     font-weight: bold;
 }
@@ -591,9 +620,10 @@ main{
 
     margin-top: 50px;
     position: relative;
+    justify-content: space-evenly;
     left: -60px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-template-rows: 1fr 1fr;
 }
 
@@ -673,131 +703,11 @@ main{
     height: 100%;
 
 }
-
 /*
 ==================================================
                       section 1-end
 ==================================================
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
