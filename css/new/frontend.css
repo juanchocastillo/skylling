@@ -184,7 +184,7 @@ main{
     min-width: 1024px;
     max-width: 1440px;
     height: auto;
-    padding: 100px 0 0;
+    padding: 100px 0 40px;
     font-family: nexa-light;
     font-size: 1.6rem;
     background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
@@ -974,14 +974,14 @@ main{
 */
 
 
-footer {
+/*.footer-info {
 
-    width: 100%;
+    /*width: 100%;
     min-width: 1024px;
     max-width: 1440px;
     height: auto;
     padding: 0 0 60px;
-}
+}*/
 
 .footer-formulario {
 
@@ -1116,7 +1116,7 @@ footer {
     top: 50%;
 }
 
-footer .footer-info {
+ .footer-info {
 
     width: 100%;
     height: 700px;
@@ -1125,6 +1125,7 @@ footer .footer-info {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   /* padding: 0 0 20px;*/
 }
 
 .footer-info__logo-container {
@@ -1221,7 +1222,7 @@ footer .footer-info {
 
     font-family: Poppins, sans-serif; 
     font-weight: bolder;
-    font-family: nexa-bold;
+   
     font-size: 2.5rem;
     color: #234e9d;
 }
