@@ -443,6 +443,7 @@ main{
     /* min-width: 1024px; */
     height: 100%;
     display: grid;
+    row-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr;
     justify-items: center;
@@ -451,8 +452,8 @@ main{
 
 .section-detail .section-cards .cards-container .container {
 
-    width: 240px;
-    height: 280px;
+    width: 155px;
+    height: 185px;
     padding-right: 5px;
     background-image: url(http://localhost/skylling/static/assets/fondo.png);
     background-repeat: no-repeat;
@@ -1116,7 +1117,7 @@ footer {
     top: 50%;
 }
 
-footer .footer-info {
+.footer-info {
 
     width: 100%;
     height: 700px;
@@ -1202,7 +1203,7 @@ footer .footer-info {
 
     color: #091439;
     font-family: nexa-light;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 25px;
     margin-top: 10px;
@@ -1221,7 +1222,6 @@ footer .footer-info {
 
     font-family: Poppins, sans-serif; 
     font-weight: bolder;
-    font-family: nexa-bold;
     font-size: 2.5rem;
     color: #234e9d;
 }
