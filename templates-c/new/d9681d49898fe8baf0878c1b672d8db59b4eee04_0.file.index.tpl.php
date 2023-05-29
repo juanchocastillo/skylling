@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-28 21:43:46
+/* Smarty version 4.3.1, created on 2023-05-29 19:26:42
   from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_6473aef2b673d1_93990256',
+  'unifunc' => 'content_6474e052c3b4d8_91947277',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-      1 => 1685303002,
+      1 => 1685380899,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6473aef2b673d1_93990256 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6474e052c3b4d8_91947277 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,7 +28,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11544799236473aef2a13d16_02992692', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18033044116474e052be3be7_70953695', "content");
 ?>
 
 
@@ -37,12 +37,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_11544799236473aef2
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
 }
 /* {block "content"} */
-class Block_11544799236473aef2a13d16_02992692 extends Smarty_Internal_Block
+class Block_18033044116474e052be3be7_70953695 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_11544799236473aef2a13d16_02992692',
+    0 => 'Block_18033044116474e052be3be7_70953695',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -51,9 +51,10 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 <main class="main">
 
-<section class="principal-section">
+<section class="principal-section parallax-container">
+    <div class="principal-section-bg parallax-bg"></div>
     
-    <div class="principal-section-container">
+    <div class="principal-section-container parallax-content">
    
         <div class="title-container">
             <p>¡VENDER, COMERCIALIZAR <br>

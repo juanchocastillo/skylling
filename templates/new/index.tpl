@@ -5,9 +5,10 @@
 
 <main class="main">
 
-<section class="principal-section">
+<section class="principal-section parallax-container">
+    <div class="principal-section-bg parallax-bg"></div>
     
-    <div class="principal-section-container">
+    <div class="principal-section-container parallax-content">
    
         <div class="title-container">
             <p>¡VENDER, COMERCIALIZAR <br>
