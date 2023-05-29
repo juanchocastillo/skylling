@@ -156,8 +156,12 @@ main{
     border-radius: inherit;
     background: linear-gradient(
       82.3deg,
-      rgb(93, 119, 233) 10.8%,
-      rgba(99, 88, 238, 1) 94.3%
+     /* rgb(93, 119, 233) 10.8%,*/
+     
+     rgba(33,88,168,1) 10%,
+     rgba(38,95,172,1) 100%
+
+      /*rgba(99, 88, 238, 1) 94.3%*/
     );
     transition: all 0.475s;
   }
@@ -287,6 +291,11 @@ main{
 }
 
 .principal-section-button {
+
+    width: 25rem;
+    font-size: 2.3rem;
+    padding: 5px 0 0 0;
+
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -295,15 +304,18 @@ main{
     vertical-align: middle;
     text-decoration: none;
     background: transparent;
-    padding: 0;
+    /*padding: 0;*/
     /*font-size: inherit;*/
     font-size: 1.8rem;
     font-family: Poppins, sans-serif;
     font-weight: 300;
+
+    
    }
    
    button.principal-section-button {
-    width: 19.2rem;
+    /*width: 19.2rem;*/
+    width: 21rem;
     height: auto;
    }
    
@@ -357,13 +369,14 @@ main{
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.01rem 0;
+    padding: 1.001rem 0;
     /*margin: 0 0 0 2.96rem;*/
     margin: 0 0 0 5.4rem;
     color: #282936;
     /*font-weight: 700;*/
     line-height: 1.6;
     text-align: center;
+    font-family: Poppins, sans-serif;
     /*text-transform: uppercase;*/
    }
    
@@ -1475,7 +1488,8 @@ main{
     margin: 0;
     text-align: center;
     font-family: Poppins, sans-serif;
-    font-size: 2.08rem;
+    font-size: 2rem;
+    line-height: 1;
     color: #121d40;
     z-index: 2;
 
@@ -1490,9 +1504,11 @@ main{
 
 
 .steps-info-container .text-container__title{
-
+   
+    margin: 0 0 8px;
     font-weight: bold;
     font-size: 2.72rem;
     line-height: 1;
+   
     
 }   
