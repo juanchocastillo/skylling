@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-27 09:08:15
+/* Smarty version 4.3.1, created on 2023-05-30 01:04:54
   from 'C:\xampp\htdocs\skylling\templates\new\base.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_6471ac5f4cd993_55948943',
+  'unifunc' => 'content_64752f96d50631_59311168',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'efdead907f5b8383465117e414e1e8865c95336b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\base.tpl',
-      1 => 1685171291,
+      1 => 1685401492,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6471ac5f4cd993_55948943 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64752f96d50631_59311168 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -35,7 +35,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     
 
     <!-- CSS -->
-   <link href="css/new/frontend.css" rel="stylesheet">
+  
 
 
     <!-- Fonts-from-Google -->
@@ -44,6 +44,9 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/new/frontend.css"  media="screen and (min-width:769px)">
+    <link rel="stylesheet" href="css/new/mobile.css"  media="screen and (max-width:768px)">
 
 
 </head>
@@ -55,8 +58,9 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
             <span class="navbar-logo"></span>
         </div>
 
-        <ul class="navbar-list">
-            <li class="navbar-list__li">Inicio</li>
+        <ul class="navbar-list" clicked="false">
+            <li class="navbar-list__li log-in">Iniciar Sesión</li>
+            <li class="navbar-list__li home">Inicio</li>
             <li class="navbar-list__li">Características</li>
             <li class="navbar-list__li">Planes</li>
             <li class="navbar-list__li">Sobre Nosotros</li>
@@ -64,7 +68,10 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
         </ul>
 
         <div class="navbar-button-login-container">
+            
+            <span class="menu-hamburger" clicked="false">
 
+            </span>
 
             <button class="navbar-button-login">
                 <span class="button-content">Iniciar sesión</span>
@@ -81,7 +88,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13806573546471ac5f4c4e55_15265677', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_42688900464752f96d4d977_10459092', "content");
 ?>
 
 
@@ -93,12 +100,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13806573546471ac5f
 </html>
 <?php }
 /* {block "content"} */
-class Block_13806573546471ac5f4c4e55_15265677 extends Smarty_Internal_Block
+class Block_42688900464752f96d4d977_10459092 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_13806573546471ac5f4c4e55_15265677',
+    0 => 'Block_42688900464752f96d4d977_10459092',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

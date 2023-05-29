@@ -9,7 +9,7 @@
     
 
     <!-- CSS -->
-   <link href="css/new/frontend.css" rel="stylesheet">
+  
 
 
     <!-- Fonts-from-Google -->
@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/new/frontend.css"  media="screen and (min-width:769px)">
+    <link rel="stylesheet" href="css/new/mobile.css"  media="screen and (max-width:768px)">
 
 
 </head>
@@ -29,8 +32,9 @@
             <span class="navbar-logo"></span>
         </div>
 
-        <ul class="navbar-list">
-            <li class="navbar-list__li">Inicio</li>
+        <ul class="navbar-list" clicked="false">
+            <li class="navbar-list__li log-in">Iniciar Sesión</li>
+            <li class="navbar-list__li home">Inicio</li>
             <li class="navbar-list__li">Características</li>
             <li class="navbar-list__li">Planes</li>
             <li class="navbar-list__li">Sobre Nosotros</li>
@@ -38,7 +42,10 @@
         </ul>
 
         <div class="navbar-button-login-container">
+            
+            <span class="menu-hamburger" clicked="false">
 
+            </span>
 
             <button class="navbar-button-login">
                 <span class="button-content">Iniciar sesión</span>
