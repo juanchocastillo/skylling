@@ -152,6 +152,7 @@
                     </div>
                 </div>
             </div>
+            <div class="cloud-bg"> </div>
         </section>
 
 
