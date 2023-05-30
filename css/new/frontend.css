@@ -449,7 +449,7 @@ body::-webkit-scrollbar-thumb{
     border-right: 0.2rem solid #fff;
     transform: rotate(45deg);
    }
-   
+    
    button.principal-section-button .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
