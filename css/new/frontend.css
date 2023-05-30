@@ -124,7 +124,16 @@ body::-webkit-scrollbar-thumb{
     cursor: pointer;
 }
 
-.navbar-list li:first-child{
+.navbar-list li:hover{
+    /*color: #2b3386;*/
+    color: #245aa9;
+}
+
+.navbar-list .log-in{
+    display: none;
+}
+
+.navbar-list li:nth-child(2){
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: #2158a8;
@@ -205,6 +214,7 @@ body::-webkit-scrollbar-thumb{
     transition: all 0.475s;
   }
  
+
 
 /*
 ==================================================
@@ -299,7 +309,6 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    
     
 }
 
@@ -1534,6 +1543,7 @@ body::-webkit-scrollbar-thumb{
     
     width: 100%;
     height: 100%;
+    padding: 0 20px;
     
     /*width: 300px;*/
     /*min-width:300px;*/
@@ -1560,6 +1570,8 @@ body::-webkit-scrollbar-thumb{
     box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
     -webkit-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
     -moz-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+
+    
 }
 
 

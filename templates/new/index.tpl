@@ -16,7 +16,7 @@
              SU NEGOCIO!</p>
         </div>
 
-        <div class="figure">
+        <div class="figure desktop">
             <div class="img-container">
                 <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
             </div>
@@ -44,6 +44,12 @@
                     <span class="button-text">Pruébalo Gratis</span>
                 </button>
             </div>
+
+             <div class="figure mobile">
+                <div class="img-container">
+                    <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
+                </div>
+            </div> 
 
         </div>
 
@@ -115,8 +121,8 @@
                             <div class="info-section">
                                     <div class="texture"></div>
                                     <div class="text-container">
-                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
-                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                        <p class="text-container__title">Paso 2 <br>Funciones potentes<br> </p>
+                                        <p class="text-container__caption">Crece<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -127,8 +133,8 @@
                                 <div class="info-section">
                                     <div class="texture"></div>
                                     <div class="text-container">
-                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
-                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                        <p class="text-container__title">Paso 3 <br> Tus datos viven en la nube</p>
+                                        <p class="text-container__caption">Regístrate</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,8 +145,8 @@
                                 <div class="info-section">
                                     <div class="texture"></div>
                                     <div class="text-container">
-                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
-                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                        <p class="text-container__title">Paso 4 <br> Usted es nuestra prioridad</p>
+                                        <p class="text-container__caption">Contáctanos</p>
                                     </div>
                                 </div>
                             </div>

@@ -88,8 +88,9 @@ main{
     flex-direction: column;
     z-index: -1;
     top: -100vh;
-   
-    
+    background-color: #fff;
+    left: 0;
+    min-width: 320px;
       
 }
 
@@ -101,6 +102,7 @@ main{
 }
 
 .navbar-list .log-in{
+
     
 }
 
@@ -169,7 +171,6 @@ main{
 
 
 
-
 /*
 ==================================================
                 Principal-section
@@ -177,14 +178,13 @@ main{
 */
 
 
-
 .principal-section{
-    display: none;
+    
     width: 100%;
-    min-width: 1024px;
-    max-width: 1440px;
+    min-width: 320px;
+    max-width: 768px;
     height: auto;
-    padding: 100px 0 40px;
+    padding: 98px 0 0;
     font-family: nexa-light;
     font-size: 1.6rem;
     /*background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
@@ -193,11 +193,269 @@ main{
     background-size: cover;*/
 }
 
+
+.principal-section .principal-section-bg{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    /*transform: rotate(45deg);*/
+    /*background-color: #091539;*/
+    background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    z-index: -4;
+
+}
+
+.principal-section-container{
+    /*display: flex; desktop*/
+    width: 100%;
+    height: auto;
+    /*grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 460px;*/
+}
+
+.principal-section .title-container{
+    display: flex;
+    width: 100%;
+    /*grid-column-start: 1;
+    grid-column-end: 4; desktop*/
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    
+}
+
+.principal-section .title-container > p{
+    text-align: center;
+    
+}
+
+.principal-section .title-container .title-container__span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: #091439;
+}
+
+
+.principal-section  .figure{
+    /*position: relative;*/
+    width: 100%;
+    /*grid-column-start: 1;
+    grid-column-end: 3; desktop*/
+}
+
+
+.principal-section .desktop{
+    display: none;
+}
+
+.principal-section .mobile{
+    position: relative;
+    min-width: 320px;
+    left: -10%;
+    margin: 16px 0 0;
+
+}
+
+.principal-section .desktop{
+    display: none;
+    position: absolute;
+    min-width: 320px;
+    left: -10%;
+    margin: 16px 0 0;
+}
+
+.principal-section .img-container{
+    /*position: absolute; desktop*/
+    width:  100%;
+    height: 50%;
+    /*top: -36px; desktop*/
+   
+    /*margin-left: -120px; desktop*/
+   
+    
+}
+
+.principal-section .img-container > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.principal-section .content-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    /*padding: 0 0 70px;*/
+    /*top: -8px; desktop*/
+    /*left: -60px; desktop*/
+    /*grid-column-start: 3;
+    grid-column-end: 4;*/
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    /*background-color: #2158a8;*/
+    /*padding: 0 40px 0 20px; desktop*/
+    gap: 20px;
+    
+}
+
+.principal-section .content-container .text-container{
+    
+    /*width: auto; desktop*/
+    width: 80%;
+    height: auto;
+    text-align: center;
+    /*margin-bottom: 12px; desktop*/
+    /*font-size: 2.8rem;*/
+    font-size: 1.8rem;
+}
+
+/*
+.principal-section .content-container .text-container > p{
+
+}*/
+
+
+.principal-section-button-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*justify-content: left; desktop*/
+    justify-content: center;
+}
+
+.principal-section-button {
+
+   
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    /*padding: 0;*/
+    /*font-size: inherit;*/
+    font-size: 1.8rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+
+    
+   }
+   
+   button.principal-section-button {
+    /*width: 19.2rem;*/
+    width: 18rem;
+    /*font-size: 2.3rem;desktop*/
+    padding: 5px 0 0 0;
+    height: auto;
+
+   }
+   
+   button.principal-section-button .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    /*
+    width: 4.8rem;
+    height: 4.8rem;*/
+    width: 3.8rem;
+    height: 4rem;
+    background: #091539;
+    border-radius: 2.6rem;
+   }
+   
+   button.principal-section-button .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.principal-section-button .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.5rem;
+    width: 1.8rem;
+    height: 0.2rem;
+    background: none;
+   }
+   
+   button.principal-section-button .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.464rem;
+    right: 0.1rem;
+    width: 1rem;
+    height: 1rem;
+    border-top: 0.2rem solid #fff;
+    border-right: 0.2rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.principal-section-button .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 2px;
+    right: 0;
+    bottom: 0;
+    padding: 1.001rem 0;
+    /*margin: 0 0 0 2.96rem;*/
+    margin: 0 0 0 3.6rem;
+    color: #282936;
+    /*font-weight: 700;*/
+    line-height: 1.6;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    /*text-transform: uppercase;*/
+   }
+   
+   .principal-section-button:hover .circle {
+    width: 110%;
+   }
+
+   
+   .principal-section-button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   .principal-section-button:hover .button-text {
+    color: #fff;
+   }
+
+
+/*.background-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("http://localhost/skylling/assets/background-principal-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}*/
+
+
+
+
 /*
 ==================================================
                 Principal-section_end
 ==================================================
 */
+
 
 
 
@@ -236,20 +494,22 @@ main{
 
 
 
+
+
 /*
 ==================================================
                 question-section
 ==================================================
 */
 
+
 .questions-section{
-    
-    display: none;
+  
     display: flex;
     width: 100%;
     height: auto;
-    min-width: 1024px;
-    max-width: 1440px;
+    min-width: 320px;
+    max-width: 768px;
     justify-content: center;
     align-items: center;
     /*background-image: url("/assets/shadow.png");
@@ -257,6 +517,265 @@ main{
     background-repeat: no-repeat;
     background-size: cover;*/
 }
+
+.questions-section-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*padding: 100px 0 100px; desktop*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/*.questions-section .background-cloud{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    min-width: 1024px;
+    top: 0;
+    background-image: url("http://localhost/skylling/static/assets/background-cloud.png");
+    background-position:  bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+
+
+.questions-section .title-container{
+    position: relative;
+    display: flex;
+    /*width: 340px;*/
+    height: auto;
+    margin: 0 0 50px;
+    justify-content: center;
+    
+
+}
+
+
+.questions-section .title-container .text-container{
+    width: 70%;
+    padding: 0 16px;
+    text-align: center;
+    font-size: 2rem;
+    color: #091439;
+    font-family: nexa-light;
+    
+}
+
+
+
+.questions-section .title-container span{
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+
+.questions-section .title-container h3{
+   font-size: 2rem;
+}
+
+
+.questions-section .img-container{
+    position: absolute;
+    
+}
+
+
+
+@media (min-width: 370px) {
+    
+    .questions-section .img-container{
+        width: 20%;
+        height: 54%;
+        top: 43px;
+        right: 5%;
+             
+    }
+    
+}
+
+
+
+@media (max-width: 370px) {
+
+    .questions-section .img-container{
+        width: 20%;
+        height: 35%;
+        top: 43px;
+        right: 5%;
+             
+    }
+}
+
+
+
+
+.questions-section .img-container span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url("http://localhost/skylling/static/assets/signo-pregunta.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.questions-section .content-container{
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*padding: 20px 0 0;*/
+    position: static;
+    overflow-y: hidden;
+   /* width: 600px;
+    height: 360px*/
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.questions-section .content-container .question{
+    
+    width: 78%;
+    min-width: 320px;
+    height: 70px;
+    margin: 10px 0;
+    padding: 10px;
+    overflow-y: hidden;
+    text-align: center;
+    border-radius: 40px;
+    color: #091439;
+    background-color:  #f4f5f8;;
+    box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    
+    /*height: auto;*/
+
+}
+
+
+
+.questions-section .content-container .question-title{
+    display: flex;
+    width: 100%;
+    /*margin: 8px 0 20px;*/
+    /*padding: 0 60px;*/
+    /*margin-bottom: 16px;*/
+    justify-content: center;
+    font-family: nexa-light;
+    font-size: 2rem;
+   
+}
+
+.questions-section .content-container .question-title p{
+    font-size: 1.8rem;
+    width: 100%;
+    margin: 1.5% 0 10%;
+
+}
+
+
+.questions-section .question .question-title__icon-arrow{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin:  5px 20px 0 0;
+    background-image: url("http://localhost/skylling/static/assets/arrow-min.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(-180deg);
+    animation-duration: 0.3s;
+    /*animation-delay: 1s;*/
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.questions-section .content-container .question-title span{
+    font-family: nexa-bold;
+    font-size: 1.8rem;
+   
+}
+
+.questions-section .content-container .question-text{
+    /*text-align: center;*/
+    font-family: Poppins, sans-serif;
+    font-size: 1.4rem;
+    /*padding: 0  80px 80px;*/
+    padding: 10px 80px 80px;
+    
+}
+
+/*ANIMATIONS-FROM-question-section*/
+
+@keyframes question-arrow-dow {
+    from{
+        transform: rotate(-180deg);
+    }
+    
+    to{
+        transform: rotate(-90deg);
+    }
+}
+
+
+@keyframes question-arrow-up {
+    from{
+        transform: rotate(-90deg);
+    }
+
+    to{
+        transform: rotate(-180deg);
+    }
+}
+
+
+@keyframes question-xpand {
+    from{
+        height: 60px;
+
+    }
+
+    to{
+        height: 180px;
+    }
+    
+}
+
+
+@keyframes question-reduce {
+    from{
+        height: 180px;
+
+    }
+
+    to{
+        height: 60px;
+    }
+    
+    
+}
+
+
+
 
 /*
 ==================================================

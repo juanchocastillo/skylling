@@ -105,7 +105,6 @@
                     
                     
                     if(elem.getAttribute("clicked")=="true"){
-                        console.log("si")
 
                         elem.style.transform="rotate(-180deg)";
                         xpand[index].style.height=`60px`
@@ -146,10 +145,11 @@
  }
 
 
-/*Fondo parallax*/
+
  arrowsButton(".question-title__icon-arrow", ".question", ".question-text");
 
 
+ /*Fondo parallax*/
  window.addEventListener('scroll', function(){
            
     var parallaxBg= document.querySelector(".parallax-bg")

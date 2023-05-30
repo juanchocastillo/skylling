@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-30 02:46:18
+/* Smarty version 4.3.1, created on 2023-05-30 09:52:55
   from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_6475475ad74be9_66410009',
+  'unifunc' => 'content_6475ab575091b4_16544331',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-      1 => 1685407251,
+      1 => 1685433172,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6475475ad74be9_66410009 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6475ab575091b4_16544331 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,7 +28,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2736774116475475aa34206_29183266', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4837892026475ab575024b2_98834232', "content");
 ?>
 
 
@@ -37,12 +37,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2736774116475475aa
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
 }
 /* {block "content"} */
-class Block_2736774116475475aa34206_29183266 extends Smarty_Internal_Block
+class Block_4837892026475ab575024b2_98834232 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_2736774116475475aa34206_29183266',
+    0 => 'Block_4837892026475ab575024b2_98834232',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -62,7 +62,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
              SU NEGOCIO!</p>
         </div>
 
-        <div class="figure">
+        <div class="figure desktop">
             <div class="img-container">
                 <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
 /skylling/static/assets/computer-system-screen.png">
@@ -91,6 +91,13 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                     <span class="button-text">Pruébalo Gratis</span>
                 </button>
             </div>
+
+             <div class="figure mobile">
+                <div class="img-container">
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/computer-system-screen.png">
+                </div>
+            </div> 
 
         </div>
 
@@ -166,8 +173,8 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                             <div class="info-section">
                                     <div class="texture"></div>
                                     <div class="text-container">
-                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
-                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                        <p class="text-container__title">Paso 2 <br>Funciones potentes<br> </p>
+                                        <p class="text-container__caption">Crece<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -178,8 +185,8 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                                 <div class="info-section">
                                     <div class="texture"></div>
                                     <div class="text-container">
-                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
-                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                        <p class="text-container__title">Paso 3 <br> Tus datos viven en la nube</p>
+                                        <p class="text-container__caption">Regístrate</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,8 +197,8 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                                 <div class="info-section">
                                     <div class="texture"></div>
                                     <div class="text-container">
-                                        <p class="text-container__title">PASO 1<br> Fácil de usar</p>
-                                        <p class="text-container__caption">Regístrate<br>y comienza</p>
+                                        <p class="text-container__title">Paso 4 <br> Usted es nuestra prioridad</p>
+                                        <p class="text-container__caption">Contáctanos</p>
                                     </div>
                                 </div>
                             </div>
