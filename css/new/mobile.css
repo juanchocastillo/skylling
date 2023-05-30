@@ -45,7 +45,7 @@ main{
     min-width: 320px;
     max-width: 768px;
     margin: 0 auto; 
-    display: none;
+    /*   */
     /*background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ main{
 
 
 .nav-bar{
-    display: flex;
+    display: none;
     position: absolute;
     justify-content: space-between;
     /*max-width: 1440px; desktop*/ 
@@ -467,14 +467,14 @@ main{
 
 
 .section-detail { 
-    display: none;
+    /* display: none; */
     width: 100%;
     height: auto;
     position: relative;
     z-index: -3;
     background-color: #091439;
-    min-width: 1024px; /*verificar*/
-    max-width: 1440px;
+    min-width: 320px;
+    max-width: 768px;
     background-image: url(http://localhost/skylling/static/assets/fondo\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
