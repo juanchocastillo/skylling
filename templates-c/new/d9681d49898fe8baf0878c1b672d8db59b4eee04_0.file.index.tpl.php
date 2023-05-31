@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-05-30 09:52:55
+/* Smarty version 4.3.1, created on 2023-05-31 04:58:25
   from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_6475ab575091b4_16544331',
+  'unifunc' => 'content_6476b7d1495b45_29929359',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-      1 => 1685433172,
+      1 => 1685501903,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6475ab575091b4_16544331 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6476b7d1495b45_29929359 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -28,7 +28,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4837892026475ab575024b2_98834232', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10635626836476b7d14861c5_37011374', "content");
 ?>
 
 
@@ -37,12 +37,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_4837892026475ab575
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
 }
 /* {block "content"} */
-class Block_4837892026475ab575024b2_98834232 extends Smarty_Internal_Block
+class Block_10635626836476b7d14861c5_37011374 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_4837892026475ab575024b2_98834232',
+    0 => 'Block_10635626836476b7d14861c5_37011374',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -107,6 +107,15 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 
 <section class="section-detail">
+            <div class="section-detail__mundo">
+                <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
+/skylling/static/assets/mundo.png" alt="">
+            </div>
+            <div class="section-detail__titulo">
+                <h3> <strong class="titulo__negrita">El Software</strong> <br>
+                    que necesitas para dirigir tu <br>
+                    <strong class="titulo__negrita">negocio exitoso</strong></h3>
+            </div>
             <div class="section-cards">
                 <div class="cards-container">
                     <div class="container">

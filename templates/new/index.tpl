@@ -59,6 +59,14 @@
 
 
 <section class="section-detail">
+            <div class="section-detail__mundo">
+                <img src="{$APP_URL}/skylling/static/assets/mundo.png" alt="">
+            </div>
+            <div class="section-detail__titulo">
+                <h3> <strong class="titulo__negrita">El Software</strong> <br>
+                    que necesitas para dirigir tu <br>
+                    <strong class="titulo__negrita">negocio exitoso</strong></h3>
+            </div>
             <div class="section-cards">
                 <div class="cards-container">
                     <div class="container">
