@@ -45,7 +45,7 @@ main{
     min-width: 320px;
     max-width: 768px;
     margin: 0 auto; 
-    display: none;
+    /*display: none;*/
     /*background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -407,8 +407,8 @@ main{
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
-    left: 8px;
-    right: 0;
+    left: 0;
+    right: -8px;
     bottom: 0;
     padding: 1.001rem 0;
     /*margin: 0 0 0 2.96rem;*/
@@ -1044,6 +1044,7 @@ main{
     background-position:  bottom;
     background-repeat: no-repeat;
     background-size: cover;*/
+    background-color: white;
 }
 
 .questions-section-container{
@@ -1054,7 +1055,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 0 0 ;
+    padding: 60px 0 60px;
 }
 
 /*.questions-section .background-cloud{
@@ -1336,7 +1337,7 @@ main{
 
     width: 100%;
     height: 480px;
-    background-image: url("/static/assets/fondo-footer1.png");
+    background-image: url("http://localhost/skylling/static/assets/fondo-footer1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1420,7 +1421,7 @@ main{
 }
 
 .formulario__inputs-container .btn {
-    height: 29px;
+    height: 30px;
     font-family: nexa-light;
     min-width: 90px;
 
@@ -1474,7 +1475,7 @@ main{
     max-width: 768px;
     height: 300px;
     background-color: #fafafc;
-    background-image: url("/static/assets/background-principal-section.png");
+    background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1512,9 +1513,14 @@ main{
     padding: 20px 20px;
 }
 
+
+
+
+
 .footer-info__text-container .text-container__text1 {
 
-    width: 100%;
+    width: 80%;
+    max-width: 150px;
     height: auto;
 }
 
@@ -1566,7 +1572,8 @@ main{
 
 .footer-info__text-container .text-container__text3 {
 
-    width: 100%;
+    width: 70%;
+    max-width: 150px;
     height: auto;
 }
 
@@ -1589,33 +1596,162 @@ main{
 }
 
 
+
+
+@media (min-width: 540px) {
+    
+    /*content one*/
+        
+    .footer-info__text-container .text-container__text1 {
+
+        width: 90%;
+        max-width: 150px;
+        height: auto;
+    }
+
+        
+    .text-container__text1 h3 {
+
+      
+        font-size: 1rem;
+        
+    }
+
+    .text-container__text1 p {
+
+     
+        font-size: 1rem;
+        
+    } 
+
+
+    /*content two*/
+        
+    .footer-info__text-container .text-container__text2 {
+
+        width: auto;
+        /*height: 200px;*/
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .footer-info__text-container .text-container__text2 h3 {
+
+       
+        font-size: 1rem;
+       
+    }
+
+    .footer-info__text-container .text-container__text2 a {
+
+      
+        font-size: 1rem;
+        
+    } 
+
+
+
+    /*content three*/
+        
+    .footer-info__text-container .text-container__text3 {
+
+        width: 80%;
+        max-width: 150px;
+        height: auto;
+    }
+
+        
+    .footer-info__text-container .text-container__text3 h3 {
+
+        font-size: 1rem;
+    
+    }
+
+    .footer-info__text-container .text-container__text3 p {
+
+      
+        font-size: 1rem;
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .footer-info__button-container {
 
-    width: 100%;
-    min-width: 320px;
-    height: auto;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    justify-content: center;
     align-items: center;
-    padding: 10px 10px 0 10px;
+    padding: 10px 20px 0;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
+
+
+.footer-info .principal-section-button-container{
+    display: none;
+}
+
+
+
+
+
+
+/*
 .footer-info .principal-section-button {
-    width: 5rem;
-    font-size: 0.8rem;
-    padding: 5px 0 0 0 ;
+
+    font-size: 1.7rem;
+}
+
+
+.footer-info .principal-section-button .button-text{
+    
+    padding: 0.5rem 0;
+}
+
+.footer-info .principal-section-button .circle{
+    
+    width: 3.1rem;
+    height: 3.1rem;
 
 }
 
 
+.footer-info .principal-section-button .circle .icon.arrow::before{
+    right: 0.5rem;
+}
 
-.footer-info .principal-section-button-container {
+.footer-info  .principal-section-button:hover .circle {
+    width: 116%;
+}
+
+*/
+
+
+
+
+
+/*
+.principal-section-button-container {
 
     width: 300px;
-}
+}*/
 
 .footer-info__links-container {
-
+    display: none;
     width: 250px;
     height: 60px;
     display: flex;
@@ -1646,23 +1782,23 @@ main{
 
 .footer-info__links-container .facebook {
 
-    background-image: url(/static/assets/facebook.png);
+    background-image: url("http://localhost/skylling/static/assets/facebook.png");
     border-radius: 8px;
 }
 
 .footer-info__links-container .twitter {
 
-    background-image: url(/static/assets/twitter.png);
+    background-image: url("http://localhost/skylling/static/assets/twitter.png");
 }
 
 .footer-info__links-container .be {
 
-    background-image: url(/static/assets/be.png);
+    background-image: url("http://localhost/skylling/static/assets/be.png");
 } 
 
 .footer-info__links-container .linkedin {
 
-    background-image: url(/static/assets/linkedin.png);
+    background-image: url("http://localhost/skylling/static/assets/linkedin.png");
 } 
 
 .footer-info__texto-final {
