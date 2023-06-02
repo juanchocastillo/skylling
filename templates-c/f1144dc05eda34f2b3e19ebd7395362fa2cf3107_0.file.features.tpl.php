@@ -1,8 +1,51 @@
+<?php
+/* Smarty version 4.3.1, created on 2023-06-02 17:49:34
+  from 'C:\xampp\htdocs\skylling\templates\features.tpl' */
 
-{extends file="base.tpl"}
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.1',
+  'unifunc' => 'content_647a0f8e4b27f9_53024431',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'f1144dc05eda34f2b3e19ebd7395362fa2cf3107' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\skylling\\templates\\features.tpl',
+      1 => 1685720970,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_647a0f8e4b27f9_53024431 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, true);
+?>
+
+
 
     
-    {block name="content"}
+    <?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2104702529647a0f8e4b14e9_49424531', "content");
+?>
+
+<?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
+}
+/* {block "content"} */
+class Block_2104702529647a0f8e4b14e9_49424531 extends Smarty_Internal_Block
+{
+public $subBlocks = array (
+  'content' => 
+  array (
+    0 => 'Block_2104702529647a0f8e4b14e9_49424531',
+  ),
+);
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+
 
     <main class="main-feature">
     
@@ -15,7 +58,7 @@
             <div class="info-feature-principal-content">
 
                
-            <div class="info-feature-img-container">            
+            <div class="info-feature-img-container floating">        
                         <img class="info-feature-img-container__img" src="http://localhost/skylling/static/assets/feature-avatar.png"  alt="Hombre en una nube">
             </div>
                 
@@ -99,4 +142,8 @@
         
     </main>
 
-{/block}
+<?php
+}
+}
+/* {/block "content"} */
+}
