@@ -1,0 +1,445 @@
+/*REPLICA DEL NAV*/
+
+/*
+==================================================
+                      config
+==================================================
+*/
+html{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url("../fonts/Light/nexa-light.otf");
+}
+
+
+@font-face {
+    font-family: nexa-bold;
+    src: url("../fonts/Bold/nexa-bold.otf");
+}
+
+/*
+==================================================
+                      Main
+==================================================
+*/
+
+body{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+
+}
+
+
+
+.main-feature{
+   
+    width: 100%;
+    min-width: 320px;
+    max-width: 768px;
+    margin: 0 auto; 
+    /*display: none;*/
+    /*background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+
+}
+
+
+
+.header{
+    position: relative;
+    min-width: 320px;
+    
+}
+
+.nav-bar{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    /*max-width: 1440px; desktop*/ 
+    min-width: 320px;
+    width: 100%;
+    height: 98px;
+    padding: 0 20px;
+    margin: 0 auto;
+    transform: translate(-50%);
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    z-index: 1;
+    
+   
+}
+
+.navbar-list{
+    position: absolute;
+    display: flex;
+    /*display: none;*/
+    width: 100vw;
+    height: 100vh;
+    list-style: none;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    /*top: 20vh;*/
+    flex-direction: column;
+    z-index: -1;
+    top: -100vh;
+    background-color: #fff;
+    left: 0;
+    min-width: 320px;
+      
+}
+
+
+.navbar-list li{
+   
+    cursor: pointer;
+    
+}
+
+.navbar-list .log-in{
+
+    
+}
+
+.navbar-list .home{
+    display: none;
+}
+
+.navbar-list li:first-child{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #2158a8;
+
+}
+
+
+.nav-bar-logo-container{
+    
+    width: 20%;
+    min-width: 100px;
+    height: auto;
+    
+}
+
+.navbar-logo{
+    display: inline-block;
+    /*width: 136px;*/
+    width: 100%;
+    height: 98px;
+    background-image: url("http://localhost/skylling/static/assets/logo-skylling.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.navbar-button-login-container{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.navbar-button-login {
+    display: none;
+  }
+  
+ .menu-hamburger{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    background-image: url("http://localhost/skylling/static/assets/menu-redondeado.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ } 
+
+
+/*
+==================================================
+                      nav-end
+==================================================
+*/
+
+
+
+/*DEVICE-WIDTH-320PX-375PX*/
+
+
+.main-feature{
+    min-width: 320px;
+    /* max-width: ; */
+    width: 100%;
+    height: auto;
+    padding: 98px 0 0;
+    
+}
+
+.main-feature .info-section-container{
+    margin: 0 0 20px
+}
+
+.main-feature .info-feature-principal-content{
+    
+    position: relative;
+    width: 100%;
+    /* padding: 0 20px 46px; */
+    color: #091439;
+    padding: 0 0 30px;
+    
+}
+
+
+.main-feature .info-feature-img-container{
+    position: relative;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-feature .info-feature-img-container__img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.main-feature .info-feature-title-container{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin: 0 0 20px;
+    
+   /*  top: 44px; */
+   /* top: 35px; */
+   
+   /* left: 116px; */
+    top: 10%;
+    left: 47%;
+
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+
+
+}
+
+
+.main-feature .info-feature-title-container h1{
+    font-weight: 100;
+}
+
+
+.main-feature .info-feature-title-container span{
+    font-weight: bold;
+}
+
+
+
+
+.main-feature .info-feature-text-container{
+    width: 100%;
+    height: auto;
+    padding: 0 30px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #091439;
+    font-family: Poppins, sans-serif;
+    
+}
+
+.main-feature .info-feature-text-container  h2 {
+    font-weight: 100;
+    padding: 0 0 10px;
+}
+
+.main-feature .info-feature-text-container .bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*DEVICE WIDTH  375px*/
+
+@media (min-width:375px) {
+   
+        
+    .main-feature .info-feature-title-container{
+        position: absolute;
+        width: auto;
+        height: auto;
+        
+    /*  top: 44px; */
+    /* top: 35px; */
+    
+    /* left: 116px; */
+        top: 10%;
+        left: 48%;
+
+
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media (min-width:500px) {
+   
+        
+    .main-feature .info-feature-title-container{
+        position: absolute;
+        width: auto;
+        height: auto;
+        
+    /*  top: 44px; */
+    /* top: 35px; */
+    
+    /* left: 116px; */
+        top: 10%;
+        left: 40%;
+
+
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 2.8rem;
+    }
+
+
+    .main-feature .info-feature-img-container{
+        position: relative;
+        left: -60px;
+        width: 80%;
+        height: 80%;
+
+    }
+    
+
+    .info-feature-text-container{
+       /*  padding: 0 30px 0; */
+        /* margin: 0 20px 0; */
+
+    }
+
+    .main-feature .info-feature-text-container  h2 {
+        font-weight: 100;
+        padding: 0 0 10px;
+        font-size: 3rem;
+        
+    }
+
+    .main-feature .info-feature-text-container .bold {
+        font-weight: bold;
+        
+    }
+
+
+    .main-feature .info-feature-text-container  p {
+       
+        font-size: 2rem;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width:768px) {
+   
+        
+    .main-feature .info-feature-title-container{
+        position: absolute;
+        width: auto;
+        height: auto;
+        
+    /*  top: 44px; */
+    /* top: 35px; */
+    
+    /* left: 116px; */
+        top: 10%;
+        left: 51%;
+
+
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 2.8rem;
+    }
+
+
+    .main-feature .info-feature-img-container{
+        position: relative;
+        left: -60px;
+        width: 80%;
+        height: 80%;
+
+    }
+    
+
+    .main-feature .info-feature-text-container{
+
+        padding: 0 112px 0;
+
+        
+       /*  padding: 0 30px 0; */
+        /* margin: 0 20px 0; */
+        
+    }
+
+    .main-feature .info-feature-text-container  h2 {
+        font-weight: 100;
+        padding: 0 0 10px;
+        font-size: 3rem;
+        
+    }
+
+    .main-feature .info-feature-text-container .bold {
+        font-weight: bold;
+        
+    }
+
+
+    .main-feature .info-feature-text-container  p {
+       
+        font-size: 2rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////////*/
+

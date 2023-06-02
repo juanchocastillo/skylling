@@ -55,6 +55,13 @@ main{
 }
 
 
+
+.header{
+    position: relative;
+    min-width: 320px;
+    
+}
+
 .nav-bar{
     display: flex;
     position: absolute;
@@ -488,7 +495,7 @@ main{
     width: 90px;
     height: 80px;
     position: absolute;
-    right: calc(70% - 20px);
+    right: calc(70% - 15px);
     top: -20px;
 }
 
@@ -989,7 +996,7 @@ main{
     
 }   
 
-.steps-info-container .cloud-bg{
+.section-detail .cloud-bg{
    
     position: absolute;
     width: 100%;
@@ -998,18 +1005,9 @@ main{
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
-    bottom: -10px;
+    z-index: 1;
+    bottom: -39px;
 }
-
-/*
-==================================================
-            question-section-end
-==================================================
-*/
-
-
-
 
 
 /*
@@ -1032,7 +1030,8 @@ main{
 
 
 .questions-section{
-  
+    
+    position: relative;
     display: flex;
     width: 100%;
     height: auto;
@@ -1058,19 +1057,39 @@ main{
     padding: 60px 0 60px;
 }
 
-/*.questions-section .background-cloud{
+/*
+.questions-section .background-cloud{
+
     position: absolute;
     width: 100%;
-    height: 100px;
-    min-width: 1024px;
-    top: 0;
-    background-image: url("http://localhost/skylling/static/assets/background-cloud.png");
-    background-position:  bottom;
+    height: 58px;
+    top: -35px;
     background-repeat: no-repeat;
+    background-image: url(http://localhost/skylling/static/assets/background-cloud.png);
+    background-position: center 1px;
     background-size: cover;
-    
-} */
 
+    
+} 
+
+@media (min-width:380px) {
+
+        
+    .questions-section .background-cloud{
+        top: -40px;
+    }
+    
+}
+
+@media (min-width:510px) {
+
+        
+    .questions-section .background-cloud{
+        top: -40px;
+    }
+    
+}
+*/
 
 .questions-section .title-container{
     position: relative;
@@ -1102,12 +1121,9 @@ main{
     
 }
 
-
-
 .questions-section .title-container h3{
    font-size: 2rem;
 }
-
 
 .questions-section .img-container{
     position: absolute;
@@ -1115,6 +1131,8 @@ main{
 }
 
 
+
+/*IMG SIGNO DE PREGUNTA*/
 
 @media (min-width: 370px) {
     
@@ -1173,8 +1191,8 @@ main{
 .questions-section .content-container .question{
     
     width: 78%;
-    min-width: 320px;
-    height: 70px;
+    min-width: 255px;
+    height: 60px;
     margin: 10px 0;
     padding: 10px;
     overflow-y: hidden;
@@ -1193,6 +1211,8 @@ main{
     /*height: auto;*/
 
 }
+
+
 
 
 
@@ -1237,7 +1257,6 @@ main{
 
 
 
-
 .questions-section .content-container .question-title span{
     font-family: nexa-bold;
     font-size: 1.8rem;
@@ -1249,68 +1268,42 @@ main{
     font-family: Poppins, sans-serif;
     font-size: 1.4rem;
     /*padding: 0  80px 80px;*/
-    padding: 10px 80px 80px;
-    
-}
-
-/*ANIMATIONS-FROM-question-section*/
-
-@keyframes question-arrow-dow {
-    from{
-        transform: rotate(-180deg);
-    }
-    
-    to{
-        transform: rotate(-90deg);
-    }
-}
-
-
-@keyframes question-arrow-up {
-    from{
-        transform: rotate(-90deg);
-    }
-
-    to{
-        transform: rotate(-180deg);
-    }
-}
-
-
-@keyframes question-xpand {
-    from{
-        height: 60px;
-
-    }
-
-    to{
-        height: 180px;
-    }
+    padding: 45px 33px 80px;
     
 }
 
 
-@keyframes question-reduce {
-    from{
-        height: 180px;
+/*CAJA DE PRGUNTAS  Size 320px a 550px*/
+
+@media (max-width:600px) {
+
+    .questions-section .content-container .question-title {
+       align-items: center;
+    }
+
+    .questions-section .content-container .question-title p{
+        font-size: 1.5rem;
+        margin: 0;
 
     }
 
-    to{
-        height: 60px;
+    .questions-section .content-container .question-title span{
+        font-size: 1.5rem;
+       
     }
-    
-    
+      
 }
-
-
-
 
 /*
 ==================================================
             question-section-end
 ==================================================
 */
+
+
+
+
+
 
 
 
@@ -1323,6 +1316,13 @@ main{
 */
 
 
+footer{
+    
+    width: 100%;
+    min-width: 320px;
+    max-width: 768px;
+    margin: 0 auto;
+}
 
 .footer-info {
 
@@ -1394,6 +1394,7 @@ main{
 } 
 
 .footer-formulario__container .formulario__inputs-container {
+    position: relative;
     display: flex;/*verificar*/
     min-width: 280px;
     max-width: 380px;
@@ -1421,10 +1422,12 @@ main{
 }
 
 .formulario__inputs-container .btn {
+
+    position: absolute;
+    right: -3px;
     height: 30px;
     font-family: nexa-light;
     min-width: 90px;
-
     /*top: -7px; verificar*/
     background-color: #283890;
     background-image: linear-gradient(90deg, #283890 0%, #1eb0b6 53%, #283890 100%);
@@ -1435,6 +1438,7 @@ main{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+
 }
 
 .formulario__inputs-container .btn span {
@@ -1831,3 +1835,484 @@ main{
                      Footer-end
 ==================================================
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===============================================================================================================
+                     VIEW-FEATURE
+===============================================================================================================
+*/
+/*
+==================================================
+                     START
+==================================================
+*/
+/*
+==================================================
+                     HERE
+==================================================
+*/
+/*
+==============================================================================================================
+                     
+===============================================================================================================
+*/
+
+
+/*
+==================================================
+                info-feature
+==================================================
+*/
+/*DEVICE-WIDTH-320PX-375PX*/
+
+
+.main-feature{
+    min-width: 320px;
+    /* max-width: ; */
+    width: 100%;
+    height: auto;
+    padding: 98px 0 0;
+    background-image: url("http://localhost/skylling/static/assets/background-principal-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main-feature .info-section-container{
+    margin: 0 0 20px;
+    
+}
+
+.main-feature .info-feature-principal-content{
+    
+    position: relative;
+    width: 100%;
+    /* padding: 0 20px 46px; */
+    color: #091439;
+    padding: 0 0 30px;
+    
+}
+
+
+.main-feature .info-feature-img-container{
+    position: relative;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-feature .info-feature-img-container__img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.main-feature .info-feature-title-container{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin: 0 0 20px;
+    
+   /*  top: 44px; */
+   /* top: 35px; */
+   
+   /* left: 116px; */
+    top: 10%;
+    left: 47%;
+
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+
+
+}
+
+
+.main-feature .info-feature-title-container h1{
+    font-weight: 100;
+}
+
+
+.main-feature .info-feature-title-container span{
+    font-weight: bold;
+}
+
+
+
+
+.main-feature .info-feature-text-container{
+    width: 100%;
+    height: auto;
+    padding: 0 30px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #091439;
+    font-family: Poppins, sans-serif;
+    
+}
+
+.main-feature .info-feature-text-container  h2 {
+    font-weight: 100;
+    padding: 0 0 10px;
+}
+
+.main-feature .info-feature-text-container .bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*DEVICE WIDTH  375px*/
+
+@media (min-width:375px) {
+   
+        
+    .main-feature .info-feature-title-container{
+        position: absolute;
+        width: auto;
+        height: auto;
+        
+    /*  top: 44px; */
+    /* top: 35px; */
+    
+    /* left: 116px; */
+        top: 10%;
+        left: 48%;
+
+
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media (min-width:500px) {
+   
+        
+    .main-feature .info-feature-title-container{
+        position: absolute;
+        width: auto;
+        height: auto;
+        
+    /*  top: 44px; */
+    /* top: 35px; */
+    
+    /* left: 116px; */
+        top: 10%;
+        left: 40%;
+
+
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 2.8rem;
+    }
+
+
+    .main-feature .info-feature-img-container{
+        position: relative;
+        left: -60px;
+        width: 80%;
+        height: 80%;
+
+    }
+    
+
+    .info-feature-text-container{
+       /*  padding: 0 30px 0; */
+        /* margin: 0 20px 0; */
+
+    }
+
+    .main-feature .info-feature-text-container  h2 {
+        font-weight: 100;
+        padding: 0 0 10px;
+        font-size: 3rem;
+        
+    }
+
+    .main-feature .info-feature-text-container .bold {
+        font-weight: bold;
+        
+    }
+
+
+    .main-feature .info-feature-text-container  p {
+       
+        font-size: 2rem;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width:768px) {
+   
+        
+    .main-feature .info-feature-title-container{
+        position: absolute;
+        width: auto;
+        height: auto;
+        
+    /*  top: 44px; */
+    /* top: 35px; */
+    
+    /* left: 116px; */
+        top: 10%;
+        left: 51%;
+
+
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 2.8rem;
+    }
+
+
+    .main-feature .info-feature-img-container{
+        position: relative;
+        left: -60px;
+        width: 80%;
+        height: 80%;
+
+    }
+    
+
+    .main-feature .info-feature-text-container{
+
+        padding: 0 112px 0;
+
+        
+       /*  padding: 0 30px 0; */
+        /* margin: 0 20px 0; */
+        
+    }
+
+    .main-feature .info-feature-text-container  h2 {
+        font-weight: 100;
+        padding: 0 0 10px;
+        font-size: 3rem;
+        
+    }
+
+    .main-feature .info-feature-text-container .bold {
+        font-weight: bold;
+        
+    }
+
+
+    .main-feature .info-feature-text-container  p {
+       
+        font-size: 2rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////////*/
+
+
+
+
+
+
+/*SLIDER*/
+
+
+
+.slider-feature{
+
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px 50px 65px;
+    gap: 40px;
+    height: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+}
+
+
+
+.slider-feature .slider-feature-card {
+    display: flex;
+    position: relative;
+    width: 200px;
+    min-width: 200px;
+    height: 250px;
+    border-radius: 28px;
+   
+    box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 1px 14px 3px rgba(0,0,0,0.2);
+
+    overflow: hidden;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+        
+    background: rgb(255,255,255);
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.185) 10%, rgba(235,235,254,1) 100%);
+
+    border: 1px white solid;
+
+    scroll-snap-align: center;
+}
+
+
+.bg{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+    opacity: 0.5;
+    background-image: url("http://localhost/skylling/static/assets/background-texture.png");
+    background-position: center -200px;
+    background-size: cover;
+    background-repeat: repeat;
+    z-index: -1;
+
+    
+}
+
+
+.slider-feature .img-container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.slider-feature-accounting .img-container{
+    
+    background-image: url("http://localhost/skylling/static/assets/accounting-feature.png");
+}
+
+.slider-feature-sells .img-container{
+    
+    background-image: url("http://localhost/skylling/static/assets/sells-feature.png");
+    
+    top: -16px;
+}
+
+
+
+.slider-feature-billing .img-container{
+
+    background-image: url("http://localhost/skylling/static/assets/billing-feature.png");
+
+    left: 5px;
+    top: -10px;
+    
+}
+
+.slider-feature-orders .img-container{
+
+    background-image: url("http://localhost/skylling/static/assets/orders-feature.png");
+    
+    left: -12.5px;
+
+    
+}
+
+
+
+.slider-feature-support .img-container{
+
+    background-image: url("http://localhost/skylling/static/assets/support-feature.png");
+    
+}
+
+.slider-feature-tools .img-container{
+
+    background-image: url("http://localhost/skylling/static/assets/tools-feature.png");
+}
+
+
+/*TEXTOS*/
+
+
+/*general style cards*/
+
+.slider-feature-card .text-container{
+    color: #091439;
+}
+
+.slider-feature-card .text-container h2{
+    
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px 0 ;
+    
+}   
+
+
+.slider-feature-card .text-container p{
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    padding: 0 15px 0;
+
+}   
+
+
+/*issue*/
+
+
+.tools .text-container h2{
+    margin: 0 12px 13px;
+    font-size: 1rem;
+}   
+
+
+
+
+
