@@ -1,0 +1,489 @@
+html{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: nexa-light;
+    src: url("../fonts/Light/nexa-light.otf");
+}
+
+
+@font-face {
+    font-family: nexa-bold;
+    src: url("../fonts/Bold/nexa-bold.otf");
+}
+
+/*
+==================================================
+                      Header mobile 320px
+==================================================
+*/
+ 
+header {
+
+    width: 100%;
+    height: 600px;
+    background-image: url(/static/assets/fondo-footer1.png);
+}
+
+header nav {
+
+    display: none;
+}
+
+header .form-section {
+
+    width: 100%;
+    height: auto; /* verificar */ 
+}
+
+header .form-section .img-form-container { /* IMAGENES FLOTANTES */
+
+    display: none;
+}
+
+header .form-section .logo-mobile {
+
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+}
+
+
+header .form-section .logo-mobile figure {
+
+    width: 70px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+header .form-section .logo-mobile figure img {
+
+    width: 100%;
+    height: 100%;
+}
+ 
+/* 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+___________ESTILOS DEL FORMULARIO___
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+*/
+
+.form-container {
+
+    margin-top: 20px;
+}
+
+.form {
+    background-image: url(/static/assets/fondo-input.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 1rem;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  .form h4 {
+
+    margin-left: 2.2rem;
+    margin-top: 20px;
+    color: #091439;
+    font-family: nexa-bold;
+    font-weight: bold;
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    font-family: nexa-bold;
+    line-height: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    color: #091439;
+    margin-top: 20px;
+  }
+
+  .pregunta-1 {
+
+    color: #091439;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin-top: 5px;
+    font-family: nexa-light;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.7rem;
+    font-family: nexa-bold;
+    font-weight: bold;
+    line-height: 1.25rem;
+    width: 90%;
+    color: #b3b6c1;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 8px 1px rgba(0,0,0,0.43);
+  }
+  
+  .submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .pregunta-2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .pregunta-2 a {
+    color: #091439;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    font-family: nexa-light;
+  }
+
+/* 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+___________ESTILOS DEL FORMULARIO___
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+*/
+
+/* 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+___________ESTILOS DEL BOTON___
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+*/
+
+.form-container__btn-container {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.form-container .btn {
+    width: 110px;
+    height: 25px;
+    font-family: nexa-light;
+    /*top: -7px; verificar*/
+    background-color: #283890;
+    background-image: linear-gradient(90deg, #283890 0%, #1eb0b6 53%, #283890 100%);
+    color: #fff;
+    border-radius: 50px;
+    border: solid 1px #ffffff;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-container .btn span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+    font-family: nexa-bold;
+    font-weight: bold;
+}
+
+.form-container .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.form-container .btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.form-container .btn:hover .btn-text-one {
+    top: -100%;
+
+}
+
+.form-container .btn:hover .btn-text-two {
+    top: 50%;
+}
+
+
+/* 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+___________ESTILOS DEL BOTON END___
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+*/
+
+@media screen and (min-width: 768px) {
+
+    header nav {
+        display: flex;
+        width: 100%;
+        height: 80px;
+    }
+
+    header .form-section {
+
+        display: flex;
+    }
+
+    .form {
+
+        width: 280px;
+    }
+
+    .form-title {
+
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .pregunta-1 {
+
+        font-size: 1rem;
+    }
+
+    .pregunta-2 a {
+
+        font-size: 1rem;
+    }
+
+    .form-section .logo-mobile {
+
+        display: none;
+    }
+
+    .form-container {
+
+        margin: 0;
+    }
+
+    header .form-section .img-form-container {
+
+        display: block;
+        width: 60%;
+        height: auto;
+        position: relative;
+    }
+
+    .form-section .img-form-container .cloud-left {
+
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        left: 0px;
+        bottom: 20%;
+    }
+
+    .form-section .img-form-container .cloud-top {
+
+        width: 190px;
+        height: 120px;
+        position: absolute;
+        left: 10%;
+    }
+
+    .form-section .img-form-container .cloud-right {
+
+        width: 190px;
+        height: 120px;
+        position: absolute;
+        right: 0px;
+        bottom: 10%;
+    }
+
+    .form-section .img-form-container .person {
+
+        width: 260px;
+        height: 200px;
+        left: 20%;
+        position: absolute;
+        bottom: 20%;
+    }
+
+    .form-section .img-form-container img {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .form {
+
+        width: 320PX;
+    }
+
+    .form h4 {
+
+        font-size: 1.2rem;
+    }
+
+    .input-container input {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .form-container .btn {
+
+        width: 140px;
+        height: 35px;
+    }
+
+    .form-section .img-form-container .person {
+
+        width: 300px;
+        height: 260px;
+        left: 30%;
+    }
+
+    .form-section .img-form-container .cloud-right {
+
+        width: 220px;
+        height: 140px;
+    }
+
+    .form-section .img-form-container .cloud-top {
+
+        width: 250px;
+        height: 140px;
+    }
+
+    .form-section .img-form-container .cloud-left {
+
+        width: 140px;
+        height: 140px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    header {
+        height: 800px;
+    }
+
+    header nav {
+        height: 180px;
+    }
+
+    .form {
+
+        width: 360PX;
+        height: 450px;
+        position: relative;
+        margin-left: 140px;
+    }
+
+    .form-title {
+
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .form h4 {
+
+        margin-top: 40px;
+        font-size: 1.4rem;
+    }
+
+    .input-container input {
+
+        padding: 1.9rem;
+        font-size: 1.2rem;
+    }
+
+    .form-container .btn {
+
+        position: absolute;
+        bottom: 20px;
+        width: 170px;
+        height: 45px;
+    }
+
+    .pregunta-1 {
+
+        font-size: 1.2rem;
+    }
+
+    .pregunta-2 a {
+
+        font-size: 1.2rem;
+    }
+
+    .form-section .img-form-container .cloud-right {
+
+        width: 320px;
+        height: 180px;
+    }
+
+    .form-section .img-form-container .cloud-left {
+
+        width: 180px;
+        height: 180px;
+    }
+
+    .form-section .img-form-container .cloud-top {
+
+        width: 300px;
+        height: 180px;
+        left: 20%;
+    }
+
+    .form-section .img-form-container .person {
+
+        width: 400px;
+        height: 360px;
+    }
+}
