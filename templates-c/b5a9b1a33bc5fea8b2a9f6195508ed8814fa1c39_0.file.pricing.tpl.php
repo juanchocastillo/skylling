@@ -1,6 +1,47 @@
-{extends file="base.tpl"}
+<?php
+/* Smarty version 4.3.1, created on 2023-06-05 15:48:35
+  from 'C:\xampp\htdocs\skylling\templates\pricing.tpl' */
 
- {block name="content"}
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.1',
+  'unifunc' => 'content_647de7b3469bf7_63517949',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b5a9b1a33bc5fea8b2a9f6195508ed8814fa1c39' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\skylling\\templates\\pricing.tpl',
+      1 => 1685972911,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_647de7b3469bf7_63517949 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_loadInheritance();
+$_smarty_tpl->inheritance->init($_smarty_tpl, true);
+?>
+
+
+ <?php 
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1498330467647de7b3468452_80943641', "content");
+$_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
+}
+/* {block "content"} */
+class Block_1498330467647de7b3468452_80943641 extends Smarty_Internal_Block
+{
+public $subBlocks = array (
+  'content' => 
+  array (
+    0 => 'Block_1498330467647de7b3468452_80943641',
+  ),
+);
+public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
+?>
+
 
  <section class="pricing-section">
                 <div class="pricing-container">
@@ -184,4 +225,8 @@
 
            
 
-            {/block}
+            <?php
+}
+}
+/* {/block "content"} */
+}
