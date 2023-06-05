@@ -1,81 +1,7 @@
-<?php
-<<<<<<< HEAD
-/* Smarty version 4.3.1, created on 2023-06-02 04:12:33
-=======
-/* Smarty version 4.3.1, created on 2023-05-31 04:58:25
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-  from 'C:\xampp\htdocs\skylling\templates\new\index.tpl' */
-
-/* @var Smarty_Internal_Template $_smarty_tpl */
-if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '4.3.1',
-<<<<<<< HEAD
-  'unifunc' => 'content_647950119e37a2_95678880',
-=======
-  'unifunc' => 'content_6476b7d1495b45_29929359',
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-  'has_nocache_code' => false,
-  'file_dependency' => 
-  array (
-    'd9681d49898fe8baf0878c1b672d8db59b4eee04' => 
-    array (
-      0 => 'C:\\xampp\\htdocs\\skylling\\templates\\new\\index.tpl',
-<<<<<<< HEAD
-      1 => 1685671509,
-=======
-      1 => 1685501903,
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-      2 => 'file',
-    ),
-  ),
-  'includes' => 
-  array (
-  ),
-),false)) {
-<<<<<<< HEAD
-function content_647950119e37a2_95678880 (Smarty_Internal_Template $_smarty_tpl) {
-=======
-function content_6476b7d1495b45_29929359 (Smarty_Internal_Template $_smarty_tpl) {
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-$_smarty_tpl->_loadInheritance();
-$_smarty_tpl->inheritance->init($_smarty_tpl, true);
-?>
+{extends file="base.tpl"}
 
 
-
-<?php 
-<<<<<<< HEAD
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_193629989647950119db798_58956767', "content");
-=======
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_10635626836476b7d14861c5_37011374', "content");
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-?>
-
-
-
-
-<?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "base.tpl");
-}
-/* {block "content"} */
-<<<<<<< HEAD
-class Block_193629989647950119db798_58956767 extends Smarty_Internal_Block
-=======
-class Block_10635626836476b7d14861c5_37011374 extends Smarty_Internal_Block
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-{
-public $subBlocks = array (
-  'content' => 
-  array (
-<<<<<<< HEAD
-    0 => 'Block_193629989647950119db798_58956767',
-=======
-    0 => 'Block_10635626836476b7d14861c5_37011374',
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
-  ),
-);
-public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
-?>
-
+{block name="content"}
 
 <main class="main">
 
@@ -92,8 +18,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
         <div class="figure desktop">
             <div class="img-container">
-                <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/computer-system-screen.png">
+                <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
             </div>
         </div>    
 
@@ -122,8 +47,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
              <div class="figure mobile">
                 <div class="img-container">
-                    <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/computer-system-screen.png">
+                    <img src="{$APP_URL}/skylling/static/assets/computer-system-screen.png">
                 </div>
             </div> 
 
@@ -135,43 +59,31 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 
 <section class="section-detail">
-<<<<<<< HEAD
-
-=======
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
             <div class="section-detail__mundo">
-                <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/mundo.png" alt="">
+                <img src="{$APP_URL}/skylling/static/assets/mundo.png" alt="">
             </div>
             <div class="section-detail__titulo">
                 <h3> <strong class="titulo__negrita">El Software</strong> <br>
                     que necesitas para dirigir tu <br>
                     <strong class="titulo__negrita">negocio exitoso</strong></h3>
             </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 564952238441ae9344b9b6cdba6a470dbefd952f
             <div class="section-cards">
                 <div class="cards-container">
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-finanzas"><img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/Finanzas.png" alt="Finanzas"></div>
+                            <div class="contain-finanzas"><img src="{$APP_URL}/skylling/static/assets/Finanzas.png" alt="Finanzas"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-facturacion"><img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/Facturacion.png" alt="Facturacion"></div>
+                            <div class="contain-facturacion"><img src="{$APP_URL}/skylling/static/assets/Facturacion.png" alt="Facturacion"></div>
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="box-hover">
-                            <div class="contain-crm"><img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/crm.png" alt="crm"></div>
+                            <div class="contain-crm"><img src="{$APP_URL}/skylling/static/assets/crm.png" alt="crm"></div>
                         </div>
                     </div>
                     <p>Vea su imagen financiera
@@ -186,8 +98,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
             <div class="section-pasos">
                 <div class="division-img">
                     <figure>
-                        <img src="<?php echo $_smarty_tpl->tpl_vars['APP_URL']->value;?>
-/skylling/static/assets/persona.png" alt="">
+                        <img src="{$APP_URL}/skylling/static/assets/persona.png" alt="">
                     </figure>
                 </div>
                 <div class="division-info">
@@ -263,7 +174,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 
 <section class="questions-section">
-   
+    <div class="background-cloud"></div>
     
 
     <div class="questions-section-container">
@@ -335,17 +246,87 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                     Sus datos almacenados de forma segura en la nube. Para la seguridad de las transacciones, utilizamos el protocolo Secure Sockets Layer (SSL), que encripta cualquier información, como el número de tarjeta de crédito y la información de facturación que nos envía electrónicamente. El proceso de cifrado protege su información al codificarla antes de que nos la envíe desde su computadora. Además, sus datos se respaldan automáticamente y se puede acceder a ellos desde cualquier dispositivo, por lo que siempre puede mantenerse conectado y actualizado.
                 </div>
             </div>
+
+
+
         </div>
     </div>
 </section>
 
-    
+    <section class="footer-formulario">
+            <div class="footer-formulario__container">
+                <div class="formulario__text-container">
+                    <h3>¡COMIENCE GRATIS HOY!<div class="text-container__element"></div></h3>
+                    <p> <strong class="negrita">Pruébalo gratis durante 14 días.</strong>  No se requiere tarjeta de crédito.
+                        Cancele en cualquier momento.</p>
+                </div>
+                <div class="formulario__inputs-container">
+                    <input type="email" placeholder="Introduce tu correo electrónico" name="" id="">
+                    <button class="btn">
+                        <span class="btn-text-one">EMPEZAR</span>
+                        <span class="btn-text-two">¡GENIAL!</span>
+                    </button>
+                </div>
+            </div>
+    </section>
+
+
+        <section class="footer-info">
+            <div class="footer-info__logo-container">
+                <span class="navbar-logo"></span>
+            </div>
+            <div class="footer-info__text-container">
+                <div class="text-container__text1">
+                    <h3>¿Qué es Skylling?</h3>
+                    <p>Skylling es una suite de negocios con un
+                        conjunto de funciones que le permitirán
+                        centralizar su negocio y agilizar los procesos
+                        que este conlleva, brindándoles el soporte
+                        comercial dentro y más allá de los límites de
+                        su organización.</p>
+                </div>
+                <div class="text-container__text2">
+                    <h3>Company</h3>
+                        <a href="#">Sobre nosotros</a>
+                        <a href="#">Precios y Planes</a>
+                        <a href="#">Iniciar sesión</a>
+                        <a href="#">Contáctanos</a>
+                </div>
+                <div class="text-container__text3">
+                    <h3>ACERCA DE</h3>
+                    <p>Dirección <br>
+                        350 Rhode Island St Suite 240
+                        San Francisco, CA 94103, USA <br>
+                        +1 (650) 488-7772
+                        sales@skylling.com</p>
+                </div>
+            </div>
+            <div class="footer-info__button-container">
+                <div class="principal-section-button-container"> 
+                    <button class="principal-section-button">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">¡Empezar ahora!</span>
+                    </button>
+                </div>
+                <div class="footer-info__links-container">
+                    <span class="facebook"><a href="#"></a></span>
+                    <span class="twitter"><a href="#"></a></span>
+                    <span class="be"><a href="#"></a></span>
+                    <span class="linkedin"><a href="#"></a></span>
+                </div>
+            </div>
+            <div class="footer-info__texto-final">
+                <h3 class="texto-final__h3"> <strong class="texto-final__negrita">© 2023 Skylling, </strong>Reservados todos los derechos.</h3>
+            </div>
+        </section>
+    </footer>
 
 
 </main>
 
-<?php
-}
-}
-/* {/block "content"} */
-}
+{/block}
+
+
+
