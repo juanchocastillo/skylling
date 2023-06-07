@@ -1,4 +1,18 @@
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  
+   
+    const footerForm=document.querySelector(".footer-formulario");  
+    const footer=document.querySelector(".footer-info");  
+
+    footerForm.style.display="none";
+    footer.style.marginTop="90px";
+
+  });
+
+
+  
 console.log("work")
 
 

@@ -1,26 +1,7 @@
 
+ 
 
-/*test(".question-title__icon-arrow", [".question"],
-
-    {
-        buttonAnimation:{
-            init:[{transform:"rotate(-180deg)"},{transform:"rotate(-90deg)"} ],
-            close:[{transform:"rotate(-90deg)"},{transform:"rotate(-180deg)"}],
-            config:{duration:250, iteration:1, fill:"forwards"},
-        },
-
-        animationAccion:{
-            init:[{height:"60px"},{height:"180px"}], 
-            close:[{height:"180px"},{height:"60px"}],
-            config:{duration:250, iteration:1, fill:"forwards"},
-        }
-    }
-
- )*/
-
- /*BOTONES*/
-
- class animationButton{
+class animationButton{
 
     constructor(){
         this.handlerAnimation=(elem, animation)=>{
@@ -75,6 +56,8 @@
 
 
  }  
+
+
 
 
 /*Arrow*/

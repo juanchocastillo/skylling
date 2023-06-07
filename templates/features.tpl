@@ -99,4 +99,7 @@
         
     </main>
 
+    
+<script src="static/js/features.js"></script>
+
 {/block}

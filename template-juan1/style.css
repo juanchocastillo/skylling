@@ -25,7 +25,7 @@ html{
 ==================================================
 */
 
-header {
+.header-about {
 
     width: 100%;
     height: 290px;
@@ -36,11 +36,6 @@ header {
     position: relative;
 }
 
-nav { /* le coloque tamaño solamente */
-
-    width: 100%;
-    height: 60px;
-}
 
 .section-content {
 
@@ -156,7 +151,7 @@ nav { /* le coloque tamaño solamente */
 
 @media screen and (min-width: 425px){
 
-    header {
+    .header-about {
 
         height: 300px;
     }
@@ -186,7 +181,7 @@ nav { /* le coloque tamaño solamente */
 
 @media screen and (min-width: 530px) {
     
-    header {
+    .header-about {
 
         height: 370px;
     }
@@ -253,7 +248,7 @@ nav { /* le coloque tamaño solamente */
 ==================================================
 */
 
-main {
+.main-about {
 
     width: 100%;
     height: 500px;
@@ -410,7 +405,7 @@ main {
 */
 @media screen and (min-width: 880px) {
 
-    header {
+    .header-about {
         height: 430px;
     }
 
@@ -488,7 +483,7 @@ main {
 
 @media screen and (min-width: 1024px) {
 
-    header {
+    .header-about {
 
         height: 500px;
     }
@@ -548,15 +543,12 @@ main {
 
 @media screen and (min-width: 1440px) {
 
-    header {
+    .header-about {
 
         height: 650px;
     }
 
-    nav {
-
-        height: 100px;
-    }
+  
 
     .section-content__text h1 {
 

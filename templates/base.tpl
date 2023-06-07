@@ -59,6 +59,7 @@
         </div>    
 
     </nav>
+
     
 </header>
 
@@ -151,8 +152,7 @@
 
     
 
+    
 
-<script src="static/js/index.js"></script>
-<script src="static/js/features.js"></script>
 </body>
 </html>

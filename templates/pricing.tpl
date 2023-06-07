@@ -182,6 +182,6 @@
                         
             </section>
 
-           
+           <script src="static/js/pricing.js"></script>
 
             {/block}
